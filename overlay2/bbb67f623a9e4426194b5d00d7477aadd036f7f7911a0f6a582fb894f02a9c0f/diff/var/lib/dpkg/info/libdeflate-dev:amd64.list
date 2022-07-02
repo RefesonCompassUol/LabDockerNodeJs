@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/include
+/usr/include/libdeflate.h
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libdeflate.a
+/usr/share
+/usr/share/doc
+/usr/share/doc/libdeflate-dev
+/usr/share/doc/libdeflate-dev/changelog.Debian.gz
+/usr/share/doc/libdeflate-dev/copyright
+/usr/lib/x86_64-linux-gnu/libdeflate.so

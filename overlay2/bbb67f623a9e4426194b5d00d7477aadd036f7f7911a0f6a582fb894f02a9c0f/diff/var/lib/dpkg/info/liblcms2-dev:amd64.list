@@ -1,0 +1,23 @@
+/.
+/usr
+/usr/include
+/usr/include/lcms2.h
+/usr/include/lcms2_plugin.h
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/pkgconfig
+/usr/lib/x86_64-linux-gnu/pkgconfig/lcms2.pc
+/usr/share
+/usr/share/doc
+/usr/share/doc/liblcms2-dev
+/usr/share/doc/liblcms2-dev/LittleCMS2.12 API.pdf.gz
+/usr/share/doc/liblcms2-dev/LittleCMS2.12 Plugin API.pdf.gz
+/usr/share/doc/liblcms2-dev/LittleCMS2.12 tutorial.pdf.gz
+/usr/share/doc/liblcms2-dev/changelog.Debian.gz
+/usr/share/doc/liblcms2-dev/changelog.gz
+/usr/share/doc/liblcms2-dev/copyright
+/usr/share/doc-base
+/usr/share/doc-base/lcms-api
+/usr/share/doc-base/lcms-plugin
+/usr/share/doc-base/lcms-tutorial
+/usr/lib/x86_64-linux-gnu/liblcms2.so

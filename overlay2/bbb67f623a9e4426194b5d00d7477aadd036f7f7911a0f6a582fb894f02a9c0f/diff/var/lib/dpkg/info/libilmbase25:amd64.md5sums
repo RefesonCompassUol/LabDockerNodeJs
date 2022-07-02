@@ -1,0 +1,10 @@
+d581825125fdcb1433aeb85deb6ad2bf  usr/lib/x86_64-linux-gnu/libHalf-2_5.so.25.0.3
+f0da0928af687ceedf3d95fecf6dc139  usr/lib/x86_64-linux-gnu/libIex-2_5.so.25.0.3
+9642f1760904b29d1c321b5e01eca07f  usr/lib/x86_64-linux-gnu/libIexMath-2_5.so.25.0.3
+561629e925e885256ea6acebf9d43f01  usr/lib/x86_64-linux-gnu/libIlmThread-2_5.so.25.0.3
+c893b167aba1783cdcbc789044661136  usr/lib/x86_64-linux-gnu/libImath-2_5.so.25.0.3
+f9f2f18ff931263d6d989efd79f7a21c  usr/share/doc/libilmbase25/README.md.gz
+a0a06b411c37450405703465b10ddfba  usr/share/doc/libilmbase25/changelog.Debian.gz
+7177172c4c98d5680a938d4e12ac3343  usr/share/doc/libilmbase25/changelog.gz
+97749436181fda5c1ba4f0a09cd76936  usr/share/doc/libilmbase25/copyright
+b39d87437dbedfaf16f217eb90a3359d  usr/share/lintian/overrides/libilmbase25

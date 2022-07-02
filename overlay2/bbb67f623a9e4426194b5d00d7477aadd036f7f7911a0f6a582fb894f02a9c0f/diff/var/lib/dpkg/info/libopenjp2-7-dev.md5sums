@@ -1,0 +1,14 @@
+012d3e8ac2a5d91173247aa86dbb682e  usr/include/openjpeg-2.4/openjp3d.h
+4d3504cc993064ba2912c2ae78bccd3e  usr/include/openjpeg-2.4/openjpeg.h
+2057e4047a0b2cc207c07e8a21bb07eb  usr/include/openjpeg-2.4/opj_config.h
+9cfeb449cdd9b74a6fdccb9530acbc1a  usr/include/openjpeg-2.4/opj_stdint.h
+aff870f081b2510f3f5a3e03bec19650  usr/lib/x86_64-linux-gnu/libopenjp2.a
+33682d30657fe53914000c31b6adf6e8  usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGConfig.cmake
+fcccef778855a861c90a1ae8c0b0e077  usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets-none.cmake
+3f4890816980f1a714aa67e5913eba6f  usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake
+279764e1d72ced89da00fb0a0b4812e3  usr/lib/x86_64-linux-gnu/pkgconfig/libopenjp2.pc
+ae1120e2ca2e0297398e221d9d5675a3  usr/lib/x86_64-linux-gnu/pkgconfig/libopenjp3d.pc
+f114d2d66966857390bb073ee7fa71a0  usr/lib/x86_64-linux-gnu/pkgconfig/libopenjpip.pc
+5bf1fc3f9b9ff0655718cbd645bf0816  usr/share/doc/libopenjp2-7-dev/changelog.Debian.gz
+805c38e3971e830857ad851484686305  usr/share/doc/libopenjp2-7-dev/changelog.gz
+eafb69676c6076a10f20138fbadc6057  usr/share/doc/libopenjp2-7-dev/copyright

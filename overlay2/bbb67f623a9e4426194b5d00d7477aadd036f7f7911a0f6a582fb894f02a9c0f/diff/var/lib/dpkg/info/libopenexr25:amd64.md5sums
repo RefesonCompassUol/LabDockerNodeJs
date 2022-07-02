@@ -1,0 +1,6 @@
+273c9b610061f3b4ca9e49ba91424198  usr/lib/x86_64-linux-gnu/libIlmImf-2_5.so.25.0.3
+b535dcd53d8c1b29f775df2ad5fd466a  usr/lib/x86_64-linux-gnu/libIlmImfUtil-2_5.so.25.0.3
+72e6645bd313c0422e5083bc823022b2  usr/share/doc/libopenexr25/changelog.Debian.gz
+7177172c4c98d5680a938d4e12ac3343  usr/share/doc/libopenexr25/changelog.gz
+2fa42fec9d20087d4aa94202c19735cb  usr/share/doc/libopenexr25/copyright
+87da991eac35c5e8d4f2df378538e25b  usr/share/lintian/overrides/libopenexr25

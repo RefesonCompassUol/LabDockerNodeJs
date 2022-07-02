@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libIlmImf-2_5.so.25.0.3
+/usr/lib/x86_64-linux-gnu/libIlmImfUtil-2_5.so.25.0.3
+/usr/share
+/usr/share/doc
+/usr/share/doc/libopenexr25
+/usr/share/doc/libopenexr25/changelog.Debian.gz
+/usr/share/doc/libopenexr25/changelog.gz
+/usr/share/doc/libopenexr25/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libopenexr25
+/usr/lib/x86_64-linux-gnu/libIlmImf-2_5.so.25
+/usr/lib/x86_64-linux-gnu/libIlmImfUtil-2_5.so.25

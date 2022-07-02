@@ -1,0 +1,8 @@
+39e1c59a1351c77a9429f8bef19c5713  usr/include/x86_64-linux-gnu/maxminddb.h
+16fbf9f4f246ab7d6f59ec9d22022e53  usr/include/x86_64-linux-gnu/maxminddb_config.h
+33fb9f33d974988d1d5222eedd5e31fa  usr/lib/x86_64-linux-gnu/libmaxminddb.a
+229bc6140ab0574369463772b031ef26  usr/lib/x86_64-linux-gnu/pkgconfig/libmaxminddb.pc
+2bb7f0ba01e47bb44f11a4227a346423  usr/share/doc/libmaxminddb-dev/changelog.Debian.gz
+3c590e6980ea02228804683973c6c7b7  usr/share/doc/libmaxminddb-dev/changelog.gz
+14049d728e4fd5e8ede3b9f78281011e  usr/share/doc/libmaxminddb-dev/copyright
+b787fbc1d192089d28f93e3d03e8b2e4  usr/share/man/man3/libmaxminddb.3.gz

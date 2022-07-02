@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/include
+/usr/include/jbig.h
+/usr/include/jbig85.h
+/usr/include/jbig_ar.h
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libjbig.a
+/usr/share
+/usr/share/doc
+/usr/share/doc/libjbig-dev
+/usr/share/doc/libjbig-dev/changelog.Debian.amd64.gz
+/usr/share/doc/libjbig-dev/changelog.Debian.gz
+/usr/share/doc/libjbig-dev/changelog.gz
+/usr/share/doc/libjbig-dev/copyright
+/usr/lib/x86_64-linux-gnu/libjbig.so

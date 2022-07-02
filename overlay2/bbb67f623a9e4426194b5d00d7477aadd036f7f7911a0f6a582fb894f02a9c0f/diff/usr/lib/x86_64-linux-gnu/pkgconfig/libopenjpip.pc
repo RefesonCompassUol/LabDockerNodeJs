@@ -1,0 +1,15 @@
+prefix=/usr
+bindir=${prefix}/bin
+mandir=${prefix}/share/man/
+docdir=${prefix}/share/doc/openjpeg-2.4
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include/openjpeg-2.4
+
+Name: openjpip
+Description: JPEG2000 Interactivity tools, APIs and protocols (Part 9)
+URL: http://www.openjpeg.org/
+Version: 2.4.0
+Requires: libopenjp2
+Libs: -L${libdir} -lopenjpip
+Libs.private: -lm -lcurl -lfcgi -lpthread
+Cflags: -I${includedir}

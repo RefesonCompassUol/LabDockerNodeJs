@@ -1,0 +1,6 @@
+5f836fd09e698ee79119df623c9c34e4  usr/share/doc/mysql-common/changelog.gz
+162121b76267d7d7082357b3551a02af  usr/share/doc/mysql-common/copyright
+92d3c248175d4d84ebb7a88d4d0b4606  usr/share/doc/mysql-common/frozen-mode/README
+9dda7711876d35632cbd908e530483dd  usr/share/doc/mysql-common/frozen-mode/downgrade
+39dbdeb694a9c28f49736b211d2349b1  usr/share/lintian/overrides/mysql-common
+4e0715e047778648bca4fc74e26e36dc  usr/share/mysql-common/configure-symlinks

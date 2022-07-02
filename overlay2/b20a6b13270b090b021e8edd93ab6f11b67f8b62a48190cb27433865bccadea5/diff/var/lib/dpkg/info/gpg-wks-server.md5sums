@@ -1,0 +1,6 @@
+79b52b321975457b911661bee8abfcbf  usr/bin/gpg-wks-server
+6b9684184004bcc1c23f712e7a057733  usr/share/doc/gpg-wks-server/NEWS.Debian.gz
+1757eb69ee28de210a0aa550bac352c1  usr/share/doc/gpg-wks-server/changelog.Debian.gz
+9d1164fb168c7d52eab42151583fdeca  usr/share/doc/gpg-wks-server/changelog.gz
+611841fd2504d910d4b8ea4007edbf14  usr/share/doc/gpg-wks-server/copyright
+2a9a0f71d44718fee02b7bf28cdf40e5  usr/share/man/man1/gpg-wks-server.1.gz

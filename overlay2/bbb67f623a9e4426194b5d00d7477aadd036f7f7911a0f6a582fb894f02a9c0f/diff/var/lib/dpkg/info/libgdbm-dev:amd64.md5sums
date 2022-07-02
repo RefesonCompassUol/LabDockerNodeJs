@@ -1,0 +1,11 @@
+7910e5a129cf7e4b07dca56e70075652  usr/include/gdbm.h
+c3eca1dea98c26be47499668a1904693  usr/lib/x86_64-linux-gnu/diet/lib-x86_64/libgdbm.a
+25db60c2ad7eb29157c6a13b4817cf81  usr/lib/x86_64-linux-gnu/libgdbm.a
+22d6b63e759cf766ab42d4e326028330  usr/share/doc/libgdbm-dev/NEWS.gz
+4782724677ea5469f980c638d9edf604  usr/share/doc/libgdbm-dev/NOTE-WARNING
+769a25324e2c5883ff2d23d85c5b2bb7  usr/share/doc/libgdbm-dev/changelog.Debian.gz
+0d4de370af92aa920e1c02161fe53c6f  usr/share/doc/libgdbm-dev/changelog.gz
+e818b81d5dae843466664642205852d4  usr/share/doc/libgdbm-dev/copyright
+44590361de9e074a558c88b153442d03  usr/share/info/gdbm.info.gz
+5d884ae1debc9e2b44678985a4aadd3f  usr/share/man/man3/gdbm-nolfs.3.gz
+5d884ae1debc9e2b44678985a4aadd3f  usr/share/man/man3/gdbm.3.gz
