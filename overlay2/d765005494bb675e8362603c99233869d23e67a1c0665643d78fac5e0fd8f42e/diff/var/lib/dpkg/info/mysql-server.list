@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/mysql-server
+/usr/share/doc/mysql-server/LICENSE.gz
+/usr/share/doc/mysql-server/README
+/usr/share/doc/mysql-server/changelog.Debian.gz
+/usr/share/doc/mysql-server/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/mysql-server

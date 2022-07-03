@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libdav1d.so.4.0.2
+/usr/share
+/usr/share/doc
+/usr/share/doc/libdav1d4
+/usr/share/doc/libdav1d4/changelog.Debian.gz
+/usr/share/doc/libdav1d4/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libdav1d4
+/usr/lib/x86_64-linux-gnu/libdav1d.so.4

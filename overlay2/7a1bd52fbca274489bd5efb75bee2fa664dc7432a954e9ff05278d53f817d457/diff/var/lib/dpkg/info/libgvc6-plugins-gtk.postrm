@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+# Update the configuration file (/usr/lib/graphviz/config6a)
+if [ -x /usr/sbin/libgvc6-config-update ]; then
+	libgvc6-config-update -c
+fi
+
+

@@ -1,0 +1,106 @@
+{"log":"2022-07-02 22:47:38+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-02T22:47:38.361714699Z"}
+{"log":"2022-07-02 22:47:38+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'\n","stream":"stdout","time":"2022-07-02T22:47:38.41190992Z"}
+{"log":"2022-07-02 22:47:38+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-02T22:47:38.423166898Z"}
+{"log":"2022-07-02 22:47:38+00:00 [Note] [Entrypoint]: Initializing database files\n","stream":"stdout","time":"2022-07-02T22:47:38.481727473Z"}
+{"log":"2022-07-02T22:47:38.485546Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).\n","stream":"stderr","time":"2022-07-02T22:47:38.494233113Z"}
+{"log":"2022-07-02T22:47:39.716149Z 0 [Warning] InnoDB: New log files created, LSN=45790\n","stream":"stderr","time":"2022-07-02T22:47:39.719965337Z"}
+{"log":"2022-07-02T22:47:40.068443Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.\n","stream":"stderr","time":"2022-07-02T22:47:40.069271659Z"}
+{"log":"2022-07-02T22:47:40.244923Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: fa252cfd-fa58-11ec-86aa-0242ac120002.\n","stream":"stderr","time":"2022-07-02T22:47:40.245347393Z"}
+{"log":"2022-07-02T22:47:40.255540Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.\n","stream":"stderr","time":"2022-07-02T22:47:40.26609412Z"}
+{"log":"2022-07-02T22:47:40.682162Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-02T22:47:40.687306839Z"}
+{"log":"2022-07-02T22:47:40.682179Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-02T22:47:40.687324854Z"}
+{"log":"2022-07-02T22:47:40.682582Z 0 [Warning] CA certificate ca.pem is self signed.\n","stream":"stderr","time":"2022-07-02T22:47:40.68732836Z"}
+{"log":"2022-07-02T22:47:40.784460Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.\n","stream":"stderr","time":"2022-07-02T22:47:40.785049941Z"}
+{"log":"2022-07-02 22:47:52+00:00 [Note] [Entrypoint]: Database files initialized\n","stream":"stdout","time":"2022-07-02T22:47:52.678017457Z"}
+{"log":"2022-07-02 22:47:52+00:00 [Note] [Entrypoint]: Starting temporary server\n","stream":"stdout","time":"2022-07-02T22:47:52.678038137Z"}
+{"log":"2022-07-02 22:47:52+00:00 [Note] [Entrypoint]: Waiting for server startup\n","stream":"stdout","time":"2022-07-02T22:47:52.678041574Z"}
+{"log":"2022-07-02T22:47:52.915200Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).\n","stream":"stderr","time":"2022-07-02T22:47:52.923434891Z"}
+{"log":"2022-07-02T22:47:52.916381Z 0 [Note] mysqld (mysqld 5.7.38) starting as process 75 ...\n","stream":"stderr","time":"2022-07-02T22:47:52.923455721Z"}
+{"log":"2022-07-02T22:47:52.918541Z 0 [Note] InnoDB: PUNCH HOLE support available\n","stream":"stderr","time":"2022-07-02T22:47:52.923459148Z"}
+{"log":"2022-07-02T22:47:52.918553Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins\n","stream":"stderr","time":"2022-07-02T22:47:52.923462154Z"}
+{"log":"2022-07-02T22:47:52.918556Z 0 [Note] InnoDB: Uses event mutexes\n","stream":"stderr","time":"2022-07-02T22:47:52.923464939Z"}
+{"log":"2022-07-02T22:47:52.918558Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier\n","stream":"stderr","time":"2022-07-02T22:47:52.923467634Z"}
+{"log":"2022-07-02T22:47:52.918560Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11\n","stream":"stderr","time":"2022-07-02T22:47:52.923470389Z"}
+{"log":"2022-07-02T22:47:52.918562Z 0 [Note] InnoDB: Using Linux native AIO\n","stream":"stderr","time":"2022-07-02T22:47:52.923473045Z"}
+{"log":"2022-07-02T22:47:52.918723Z 0 [Note] InnoDB: Number of pools: 1\n","stream":"stderr","time":"2022-07-02T22:47:52.923482663Z"}
+{"log":"2022-07-02T22:47:52.918804Z 0 [Note] InnoDB: Using CPU crc32 instructions\n","stream":"stderr","time":"2022-07-02T22:47:52.923485288Z"}
+{"log":"2022-07-02T22:47:52.919944Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M\n","stream":"stderr","time":"2022-07-02T22:47:52.923487703Z"}
+{"log":"2022-07-02T22:47:52.932575Z 0 [Note] InnoDB: Completed initialization of buffer pool\n","stream":"stderr","time":"2022-07-02T22:47:52.934128015Z"}
+{"log":"2022-07-02T22:47:52.933991Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().\n","stream":"stderr","time":"2022-07-02T22:47:52.934150619Z"}
+{"log":"2022-07-02T22:47:52.945399Z 0 [Note] InnoDB: Highest supported file format is Barracuda.\n","stream":"stderr","time":"2022-07-02T22:47:52.946589748Z"}
+{"log":"2022-07-02T22:47:52.970852Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables\n","stream":"stderr","time":"2022-07-02T22:47:52.977444964Z"}
+{"log":"2022-07-02T22:47:52.970915Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...\n","stream":"stderr","time":"2022-07-02T22:47:52.977461596Z"}
+{"log":"2022-07-02T22:47:53.001336Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.\n","stream":"stderr","time":"2022-07-02T22:47:53.002476996Z"}
+{"log":"2022-07-02T22:47:53.001887Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-02T22:47:53.002502084Z"}
+{"log":"2022-07-02T22:47:53.001893Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-02T22:47:53.00250519Z"}
+{"log":"2022-07-02T22:47:53.002190Z 0 [Note] InnoDB: Waiting for purge to start\n","stream":"stderr","time":"2022-07-02T22:47:53.002507705Z"}
+{"log":"2022-07-02T22:47:53.052332Z 0 [Note] InnoDB: 5.7.38 started; log sequence number 2750009\n","stream":"stderr","time":"2022-07-02T22:47:53.056109906Z"}
+{"log":"2022-07-02T22:47:53.052667Z 0 [Note] Plugin 'FEDERATED' is disabled.\n","stream":"stderr","time":"2022-07-02T22:47:53.056131106Z"}
+{"log":"2022-07-02T22:47:53.058240Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.\n","stream":"stderr","time":"2022-07-02T22:47:53.06066459Z"}
+{"log":"2022-07-02T22:47:53.058257Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.\n","stream":"stderr","time":"2022-07-02T22:47:53.06068024Z"}
+{"log":"2022-07-02T22:47:53.058261Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-02T22:47:53.060683336Z"}
+{"log":"2022-07-02T22:47:53.058263Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-02T22:47:53.060685961Z"}
+{"log":"2022-07-02T22:47:53.058717Z 0 [Warning] CA certificate ca.pem is self signed.\n","stream":"stderr","time":"2022-07-02T22:47:53.060688446Z"}
+{"log":"2022-07-02T22:47:53.058740Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.\n","stream":"stderr","time":"2022-07-02T22:47:53.060690851Z"}
+{"log":"2022-07-02T22:47:53.059321Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool\n","stream":"stderr","time":"2022-07-02T22:47:53.060693326Z"}
+{"log":"2022-07-02T22:47:53.060564Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220702 22:47:53\n","stream":"stderr","time":"2022-07-02T22:47:53.06069587Z"}
+{"log":"2022-07-02T22:47:53.063695Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-02T22:47:53.070411261Z"}
+{"log":"2022-07-02T22:47:53.070090Z 0 [Note] Event Scheduler: Loaded 0 events\n","stream":"stderr","time":"2022-07-02T22:47:53.070437652Z"}
+{"log":"2022-07-02T22:47:53.070252Z 0 [Note] mysqld: ready for connections.\n","stream":"stderr","time":"2022-07-02T22:47:53.070440738Z"}
+{"log":"Version: '5.7.38'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server (GPL)\n","stream":"stderr","time":"2022-07-02T22:47:53.070443223Z"}
+{"log":"2022-07-02 22:47:53+00:00 [Note] [Entrypoint]: Temporary server started.\n","stream":"stdout","time":"2022-07-02T22:47:53.78017793Z"}
+{"log":"Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.\n","stream":"stderr","time":"2022-07-02T22:47:54.506627178Z"}
+{"log":"Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.\n","stream":"stderr","time":"2022-07-02T22:47:54.50665422Z"}
+{"log":"Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.\n","stream":"stderr","time":"2022-07-02T22:47:55.639793088Z"}
+{"log":"Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.\n","stream":"stderr","time":"2022-07-02T22:47:55.639822404Z"}
+{"log":"ERROR 1064 (42000) at line 5: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'somewordpress''' at line 1\n","stream":"stderr","time":"2022-07-02T22:47:55.757136412Z"}
+{"log":"2022-07-02 22:47:56+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-02T22:47:56.466062881Z"}
+{"log":"2022-07-02 22:47:56+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'\n","stream":"stdout","time":"2022-07-02T22:47:56.632837177Z"}
+{"log":"2022-07-02 22:47:56+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-02T22:47:56.678924763Z"}
+{"log":"2022-07-02T22:47:56.897317Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).\n","stream":"stderr","time":"2022-07-02T22:47:56.909098947Z"}
+{"log":"2022-07-02T22:47:56.898403Z 0 [Note] mysqld (mysqld 5.7.38) starting as process 1 ...\n","stream":"stderr","time":"2022-07-02T22:47:56.909122432Z"}
+{"log":"2022-07-02T22:47:56.900565Z 0 [Note] InnoDB: PUNCH HOLE support available\n","stream":"stderr","time":"2022-07-02T22:47:56.909125909Z"}
+{"log":"2022-07-02T22:47:56.900576Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins\n","stream":"stderr","time":"2022-07-02T22:47:56.909128684Z"}
+{"log":"2022-07-02T22:47:56.900614Z 0 [Note] InnoDB: Uses event mutexes\n","stream":"stderr","time":"2022-07-02T22:47:56.909131399Z"}
+{"log":"2022-07-02T22:47:56.900617Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier\n","stream":"stderr","time":"2022-07-02T22:47:56.909134125Z"}
+{"log":"2022-07-02T22:47:56.900619Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11\n","stream":"stderr","time":"2022-07-02T22:47:56.90913691Z"}
+{"log":"2022-07-02T22:47:56.900622Z 0 [Note] InnoDB: Using Linux native AIO\n","stream":"stderr","time":"2022-07-02T22:47:56.909139786Z"}
+{"log":"2022-07-02T22:47:56.900773Z 0 [Note] InnoDB: Number of pools: 1\n","stream":"stderr","time":"2022-07-02T22:47:56.909142451Z"}
+{"log":"2022-07-02T22:47:56.900836Z 0 [Note] InnoDB: Using CPU crc32 instructions\n","stream":"stderr","time":"2022-07-02T22:47:56.909145086Z"}
+{"log":"2022-07-02T22:47:56.901971Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M\n","stream":"stderr","time":"2022-07-02T22:47:56.909147721Z"}
+{"log":"2022-07-02T22:47:56.907738Z 0 [Note] InnoDB: Completed initialization of buffer pool\n","stream":"stderr","time":"2022-07-02T22:47:56.909150476Z"}
+{"log":"2022-07-02T22:47:56.910568Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().\n","stream":"stderr","time":"2022-07-02T22:47:56.910652213Z"}
+{"log":"2022-07-02T22:47:56.922056Z 0 [Note] InnoDB: Highest supported file format is Barracuda.\n","stream":"stderr","time":"2022-07-02T22:47:56.93153687Z"}
+{"log":"2022-07-02T22:47:56.922845Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2750009\n","stream":"stderr","time":"2022-07-02T22:47:56.931558251Z"}
+{"log":"2022-07-02T22:47:57.049961Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 7992832\n","stream":"stderr","time":"2022-07-02T22:47:57.051919617Z"}
+{"log":"2022-07-02T22:47:57.174193Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 12659615\n","stream":"stderr","time":"2022-07-02T22:47:57.175129991Z"}
+{"log":"2022-07-02T22:47:57.174517Z 0 [Note] InnoDB: Database was not shutdown normally!\n","stream":"stderr","time":"2022-07-02T22:47:57.1751451Z"}
+{"log":"2022-07-02T22:47:57.174523Z 0 [Note] InnoDB: Starting crash recovery.\n","stream":"stderr","time":"2022-07-02T22:47:57.175148076Z"}
+{"log":"2022-07-02T22:47:57.206262Z 0 [Note] InnoDB: Starting an apply batch of log records to the database...\n","stream":"stderr","time":"2022-07-02T22:47:57.208624944Z"}
+{"log":"InnoDB: Progress in percent: 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 \n","stream":"stderr","time":"2022-07-02T22:47:57.887278152Z"}
+{"log":"2022-07-02T22:47:57.887080Z 0 [Note] InnoDB: Apply batch completed\n","stream":"stderr","time":"2022-07-02T22:47:57.887307057Z"}
+{"log":"2022-07-02T22:47:57.989591Z 0 [Note] InnoDB: Removed temporary tablespace data file: \"ibtmp1\"\n","stream":"stderr","time":"2022-07-02T22:47:57.989878244Z"}
+{"log":"2022-07-02T22:47:57.989609Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables\n","stream":"stderr","time":"2022-07-02T22:47:57.989896358Z"}
+{"log":"2022-07-02T22:47:57.989672Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...\n","stream":"stderr","time":"2022-07-02T22:47:57.989899484Z"}
+{"log":"2022-07-02T22:47:58.011169Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.\n","stream":"stderr","time":"2022-07-02T22:47:58.012637041Z"}
+{"log":"2022-07-02T22:47:58.011590Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-02T22:47:58.012662299Z"}
+{"log":"2022-07-02T22:47:58.011595Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-02T22:47:58.012665375Z"}
+{"log":"2022-07-02T22:47:58.011897Z 0 [Note] InnoDB: Waiting for purge to start\n","stream":"stderr","time":"2022-07-02T22:47:58.01266793Z"}
+{"log":"2022-07-02T22:47:58.062012Z 0 [Note] InnoDB: 5.7.38 started; log sequence number 12659615\n","stream":"stderr","time":"2022-07-02T22:47:58.065480379Z"}
+{"log":"2022-07-02T22:47:58.062370Z 0 [Note] Plugin 'FEDERATED' is disabled.\n","stream":"stderr","time":"2022-07-02T22:47:58.065504996Z"}
+{"log":"2022-07-02T22:47:58.066666Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.\n","stream":"stderr","time":"2022-07-02T22:47:58.069054796Z"}
+{"log":"2022-07-02T22:47:58.066682Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.\n","stream":"stderr","time":"2022-07-02T22:47:58.069069985Z"}
+{"log":"2022-07-02T22:47:58.066686Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-02T22:47:58.069072961Z"}
+{"log":"2022-07-02T22:47:58.066687Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-02T22:47:58.069075486Z"}
+{"log":"2022-07-02T22:47:58.067083Z 0 [Warning] CA certificate ca.pem is self signed.\n","stream":"stderr","time":"2022-07-02T22:47:58.069078091Z"}
+{"log":"2022-07-02T22:47:58.067108Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.\n","stream":"stderr","time":"2022-07-02T22:47:58.069086677Z"}
+{"log":"2022-07-02T22:47:58.067628Z 0 [Note] Server hostname (bind-address): '*'; port: 3306\n","stream":"stderr","time":"2022-07-02T22:47:58.069089502Z"}
+{"log":"2022-07-02T22:47:58.067663Z 0 [Note] IPv6 is available.\n","stream":"stderr","time":"2022-07-02T22:47:58.069091957Z"}
+{"log":"2022-07-02T22:47:58.067671Z 0 [Note]   - '::' resolves to '::';\n","stream":"stderr","time":"2022-07-02T22:47:58.069094342Z"}
+{"log":"2022-07-02T22:47:58.067685Z 0 [Note] Server socket created on IP: '::'.\n","stream":"stderr","time":"2022-07-02T22:47:58.069096716Z"}
+{"log":"2022-07-02T22:47:58.068221Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool\n","stream":"stderr","time":"2022-07-02T22:47:58.069099111Z"}
+{"log":"2022-07-02T22:47:58.068952Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220702 22:47:58\n","stream":"stderr","time":"2022-07-02T22:47:58.069102147Z"}
+{"log":"2022-07-02T22:47:58.071606Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-02T22:47:58.078617023Z"}
+{"log":"2022-07-02T22:47:58.078107Z 0 [Note] Event Scheduler: Loaded 0 events\n","stream":"stderr","time":"2022-07-02T22:47:58.078708769Z"}
+{"log":"2022-07-02T22:47:58.078458Z 0 [Note] mysqld: ready for connections.\n","stream":"stderr","time":"2022-07-02T22:47:58.078713498Z"}
+{"log":"Version: '5.7.38'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)\n","stream":"stderr","time":"2022-07-02T22:47:58.078716173Z"}

@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libmaxminddb.so.0.0.7
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmaxminddb0
+/usr/share/doc/libmaxminddb0/README.md.gz
+/usr/share/doc/libmaxminddb0/changelog.Debian.gz
+/usr/share/doc/libmaxminddb0/changelog.gz
+/usr/share/doc/libmaxminddb0/copyright
+/usr/share/man
+/usr/share/man/man3
+/usr/share/man/man3/libmaxminddb.3.gz
+/usr/lib/x86_64-linux-gnu/libmaxminddb.so.0

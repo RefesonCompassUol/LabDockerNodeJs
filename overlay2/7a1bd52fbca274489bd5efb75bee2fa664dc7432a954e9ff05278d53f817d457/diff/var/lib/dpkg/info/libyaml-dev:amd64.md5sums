@@ -1,0 +1,5 @@
+2e9e4c748a33d0ddf0fae24052c66dda  usr/include/yaml.h
+52677bb738611ae6074818bbd26081db  usr/lib/x86_64-linux-gnu/libyaml.a
+d6bd5c797568b13a637f72df89983ac3  usr/lib/x86_64-linux-gnu/pkgconfig/yaml-0.1.pc
+f6159d879425ce1fc72730bce6e72823  usr/share/doc/libyaml-dev/changelog.Debian.gz
+20936c416412f2c2df25723e51d5d1a7  usr/share/doc/libyaml-dev/copyright

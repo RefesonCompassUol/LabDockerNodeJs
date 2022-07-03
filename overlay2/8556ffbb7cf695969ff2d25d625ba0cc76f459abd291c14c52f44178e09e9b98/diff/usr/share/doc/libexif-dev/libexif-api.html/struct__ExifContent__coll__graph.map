@@ -1,0 +1,6 @@
+<map id="_ExifContent" name="_ExifContent">
+<area shape="rect" id="node5" href="$struct__ExifData.html" title="Represents the entire EXIF data found in an image. " alt="" coords="287,375,369,401"/>
+<area shape="rect" id="node10" href="$struct__ExifEntry.html" title="Data found in one EXIF tag. " alt="" coords="78,375,162,401"/>
+<area shape="rect" id="node7" href="$struct__ExifMnoteData.html" title="_ExifMnoteData" alt="" coords="383,196,505,223"/>
+<area shape="rect" id="node8" href="$struct__ExifMnoteDataMethods.html" title="_ExifMnoteDataMethods" alt="" coords="629,95,806,121"/>
+</map>

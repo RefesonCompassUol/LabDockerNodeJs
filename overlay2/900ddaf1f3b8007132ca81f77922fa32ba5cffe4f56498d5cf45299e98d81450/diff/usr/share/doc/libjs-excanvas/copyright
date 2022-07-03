@@ -1,0 +1,24 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: explorercanvas
+Upstream-Contact:
+  Emil A Eklund <emil@eae.net>
+  Erik Arvidsson <erik@eae.net>
+  Glen Murphy <glen@glenmurphy.com>
+Source: http://code.google.com/p/explorercanvas/downloads/list
+
+Files: *
+Copyright: (c) 2006, Google Inc.
+Developers:
+  Emil A Eklund <emil@eae.net>
+  Erik Arvidsson <erik@eae.net>
+  Glen Murphy <glen@glenmurphy.com>
+License: Apache-2.0
+
+Files: debian/*
+Copyright: (c) 2009, Marcelo Jorge Vieira (metal) <metal@alucinados.com>
+License: Apache-2.0
+
+
+License: Apache-2.0
+ On Debian GNU/Linux systems, the complete text of the Apache License
+ can be found in `/usr/share/common-licenses/Apache-2.0'

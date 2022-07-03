@@ -1,0 +1,10 @@
+
+Start-Date: 2022-06-23  00:54:20
+Commandline: apt-get install -y --no-install-recommends apt-transport-https ca-certificates curl netbase wget
+Install: libssh2-1:amd64 (1.7.0-1+deb9u2, automatic), libkrb5-3:amd64 (1.15-1+deb9u3, automatic), libgssapi-krb5-2:amd64 (1.15-1+deb9u3, automatic), libnghttp2-14:amd64 (1.18.1-1+deb9u2, automatic), libsasl2-modules-db:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u2, automatic), libcurl3:amd64 (7.52.1-5+deb9u16, automatic), libldap-2.4-2:amd64 (2.4.44+dfsg-5+deb9u9, automatic), openssl:amd64 (1.1.0l-1~deb9u6, automatic), libpsl5:amd64 (0.17.0-3, automatic), libgmp10:amd64 (2:6.1.2+dfsg-1+deb9u1, automatic), netbase:amd64 (5.4), libk5crypto3:amd64 (1.15-1+deb9u3, automatic), libsasl2-2:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u2, automatic), librtmp1:amd64 (2.4+20151223.gitfa8646d.1-1+b1, automatic), libkrb5support0:amd64 (1.15-1+deb9u3, automatic), libldap-common:amd64 (2.4.44+dfsg-5+deb9u9, automatic), libkeyutils1:amd64 (1.5.9-9, automatic), libhogweed4:amd64 (3.3-1+deb9u1, automatic), libgnutls30:amd64 (3.5.8-5+deb9u6, automatic), ca-certificates:amd64 (20200601~deb9u2), libffi6:amd64 (3.2.1-6, automatic), libunistring0:amd64 (0.9.6+really0.9.3-0.1, automatic), libp11-kit0:amd64 (0.23.3-2+deb9u1, automatic), wget:amd64 (1.18-5+deb9u3), apt-transport-https:amd64 (1.4.11), libssl1.1:amd64 (1.1.0l-1~deb9u6, automatic), libtasn1-6:amd64 (4.10-1.1+deb9u1, automatic), curl:amd64 (7.52.1-5+deb9u16), libidn2-0:amd64 (0.16-1+deb9u1, automatic), libcurl3-gnutls:amd64 (7.52.1-5+deb9u16, automatic), libssl1.0.2:amd64 (1.0.2u-1~deb9u7, automatic)
+End-Date: 2022-06-23  00:54:25
+
+Start-Date: 2022-06-23  00:54:29
+Commandline: apt-get install -y --no-install-recommends gnupg dirmngr
+Install: gnupg-agent:amd64 (2.1.18-8~deb9u4, automatic), libksba8:amd64 (1.3.5-2, automatic), libsqlite3-0:amd64 (3.16.2-5+deb9u3, automatic), readline-common:amd64 (7.0-3, automatic), libassuan0:amd64 (2.4.3-2, automatic), dirmngr:amd64 (2.1.18-8~deb9u4), libreadline7:amd64 (7.0-3, automatic), gnupg:amd64 (2.1.18-8~deb9u4), pinentry-curses:amd64 (1.0.0-2, automatic), libnpth0:amd64 (1.3-1, automatic)
+End-Date: 2022-06-23  00:54:30

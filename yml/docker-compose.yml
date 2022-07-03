@@ -1,0 +1,43 @@
+version: "3" ## especifica a versão do docker-compose file
+
+services:  ## Define um serviço 
+    
+  node: ## nome do back
+      image: node:latest ## ultima imagem do node
+      build: /var/lib/docker/app-exemplo/dockerfile  ## localização do dockerfile
+      command: npm start ## comando a executar a aplicação node
+      ports:
+      - "3000:3000" ## redirecionamento de porta quando chegar alguma requisição na porta 3000 chama o container na porta 3000
+      volumes:
+      - node_data:/var/lib/node
+    
+  db: ## nome do serviço banco de dados
+    image: mysql:5.7 ## 5.7 imagem do mysql
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:  #senhas e usuarios
+      - MYSQL_ROOT_PASSWORD='somewordpress'
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_USER=wordpress
+      - MYSQL_PASSWORD=wordpress
+
+  wordpress: ## nome do front
+    depends_on: #dependencia
+      - node
+    image: wordpress:latest #ultima imagem wordpress
+    volumes:
+      - wordpress_data:/var/www/html
+    ports:
+      - "8000:80"  # redirecionamento de porta quando chegar alguma requisição na porta 3000 chama o container na porta 80
+    restart: always
+    environment:
+     - WORDPRESS_DB_HOST=db:8080 #(ipbanco) host do  banco
+     - WORDPRESS_DB_USER=wordpress
+     - WORDPRESS_DB_PASSWORD=wordpress
+     - WORDPRESS_DB_NAME=wordpress
+volumes:
+  db_data: {}
+  node_data: {}
+  wordpress_data: {}
+  

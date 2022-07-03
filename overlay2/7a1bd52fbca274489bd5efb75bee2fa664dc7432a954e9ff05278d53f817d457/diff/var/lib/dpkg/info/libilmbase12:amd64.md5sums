@@ -1,0 +1,12 @@
+e034b1b0b9b30e3a0367d7e558f4ca51  usr/lib/x86_64-linux-gnu/libHalf.so.12.0.0
+5330b201c0d7a878ec08aff4c88864a8  usr/lib/x86_64-linux-gnu/libIex-2_2.so.12.0.0
+f10cf1cd5a3c96d9d63d7c6a542e5f80  usr/lib/x86_64-linux-gnu/libIexMath-2_2.so.12.0.0
+b7f1271d61d07fe90883b4516ea8cccc  usr/lib/x86_64-linux-gnu/libIlmThread-2_2.so.12.0.0
+f30b250680da80dcbcf83e4ed2fceb60  usr/lib/x86_64-linux-gnu/libImath-2_2.so.12.0.0
+e551d87ef60232c390e47c6625fdaf20  usr/share/doc/libilmbase12/AUTHORS
+e6a2d9074413620b2e679491667a5743  usr/share/doc/libilmbase12/NEWS.gz
+67e751f5d2b09756200ebcfa038d9c28  usr/share/doc/libilmbase12/README
+abd2473da3179b80e74527907e5009ff  usr/share/doc/libilmbase12/changelog.Debian.gz
+5a80281ccfcdf026b2f25c6880a206a8  usr/share/doc/libilmbase12/changelog.gz
+0551c7e52a56edf68835691eddd8f45c  usr/share/doc/libilmbase12/copyright
+6dc9f6f0c27e91d60c330febe90b464b  usr/share/lintian/overrides/libilmbase12

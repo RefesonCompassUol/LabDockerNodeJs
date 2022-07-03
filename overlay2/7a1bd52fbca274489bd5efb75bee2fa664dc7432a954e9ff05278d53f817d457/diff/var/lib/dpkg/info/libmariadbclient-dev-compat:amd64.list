@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmariadbclient-dev-compat
+/usr/share/doc/libmariadbclient-dev-compat/changelog.Debian.gz
+/usr/share/doc/libmariadbclient-dev-compat/copyright
+/usr/lib/x86_64-linux-gnu/libmysqlclient.so
+/usr/lib/x86_64-linux-gnu/libmysqlclient_r.so
+/usr/lib/x86_64-linux-gnu/mysqlclient.pc

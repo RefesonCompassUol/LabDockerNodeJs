@@ -1,0 +1,5 @@
+FROM node:14
+WORKDIR /app-labnodejs
+COPY . .
+RUN npm install
+ENTRYPOINT npm start

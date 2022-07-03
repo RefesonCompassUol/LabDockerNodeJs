@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!-- 
+This manual is for Libffi, a portable foreign-function interface
+library.
+
+Copyright (C) 2008, 2010, 2011 Red Hat, Inc.
+
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU General Public License as published by the
+Free Software Foundation; either version 2, or (at your option) any
+later version.  A copy of the license is included in the
+section entitled "GNU General Public License".
+ -->
+<!-- Created by GNU Texinfo 6.3, http://www.gnu.org/software/texinfo/ -->
+<head>
+<title>libffi: Complex Type Example</title>
+
+<meta name="description" content="libffi: Complex Type Example">
+<meta name="keywords" content="libffi: Complex Type Example">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="makeinfo">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="index.html#Top" rel="start" title="Top">
+<link href="Index.html#Index" rel="index" title="Index">
+<link href="Types.html#Types" rel="up" title="Types">
+<link href="Multiple-ABIs.html#Multiple-ABIs" rel="next" title="Multiple ABIs">
+<link href="Complex.html#Complex" rel="prev" title="Complex">
+<style type="text/css">
+<!--
+a.summary-letter {text-decoration: none}
+blockquote.indentedblock {margin-right: 0em}
+blockquote.smallindentedblock {margin-right: 0em; font-size: smaller}
+blockquote.smallquotation {font-size: smaller}
+div.display {margin-left: 3.2em}
+div.example {margin-left: 3.2em}
+div.lisp {margin-left: 3.2em}
+div.smalldisplay {margin-left: 3.2em}
+div.smallexample {margin-left: 3.2em}
+div.smalllisp {margin-left: 3.2em}
+kbd {font-style: oblique}
+pre.display {font-family: inherit}
+pre.format {font-family: inherit}
+pre.menu-comment {font-family: serif}
+pre.menu-preformatted {font-family: serif}
+pre.smalldisplay {font-family: inherit; font-size: smaller}
+pre.smallexample {font-size: smaller}
+pre.smallformat {font-family: inherit; font-size: smaller}
+pre.smalllisp {font-size: smaller}
+span.nolinebreak {white-space: nowrap}
+span.roman {font-family: initial; font-weight: normal}
+span.sansserif {font-family: sans-serif; font-weight: normal}
+ul.no-bullet {list-style: none}
+-->
+</style>
+
+
+</head>
+
+<body lang="en">
+<a name="Complex-Type-Example"></a>
+<div class="header">
+<p>
+Previous: <a href="Complex.html#Complex" accesskey="p" rel="prev">Complex</a>, Up: <a href="Types.html#Types" accesskey="u" rel="up">Types</a> &nbsp; [<a href="Index.html#Index" title="Index" rel="index">Index</a>]</p>
+</div>
+<hr>
+<a name="Complex-Type-Example-1"></a>
+<h4 class="subsection">2.3.5 Complex Type Example</h4>
+
+<p>This example demonstrates how to use complex types:
+</p>
+<div class="example">
+<pre class="example">#include &lt;stdio.h&gt;
+#include &lt;ffi.h&gt;
+#include &lt;complex.h&gt;
+
+void complex_fn(_Complex float cf,
+                _Complex double cd,
+                _Complex long double cld)
+{
+  printf(&quot;cf=%f+%fi\ncd=%f+%fi\ncld=%f+%fi\n&quot;,
+         (float)creal (cf), (float)cimag (cf),
+         (float)creal (cd), (float)cimag (cd),
+         (float)creal (cld), (float)cimag (cld));
+}
+
+int main()
+{
+  ffi_cif cif;
+  ffi_type *args[3];
+  void *values[3];
+  _Complex float cf;
+  _Complex double cd;
+  _Complex long double cld;
+
+  /* Initialize the argument info vectors */
+  args[0] = &amp;ffi_type_complex_float;
+  args[1] = &amp;ffi_type_complex_double;
+  args[2] = &amp;ffi_type_complex_longdouble;
+  values[0] = &amp;cf;
+  values[1] = &amp;cd;
+  values[2] = &amp;cld;
+
+  /* Initialize the cif */
+  if (ffi_prep_cif(&amp;cif, FFI_DEFAULT_ABI, 3,
+                   &amp;ffi_type_void, args) == FFI_OK)
+    {
+      cf = 1.0 + 20.0 * I;
+      cd = 300.0 + 4000.0 * I;
+      cld = 50000.0 + 600000.0 * I;
+      /* Call the function */
+      ffi_call(&amp;cif, (void (*)(void))complex_fn, 0, values);
+    }
+
+  return 0;
+}
+</pre></div>
+
+<p>This is an example for defining a custom complex type descriptor
+for compilers that support them:
+</p>
+<div class="example">
+<pre class="example">/*
+ * This macro can be used to define new complex type descriptors
+ * in a platform independent way.
+ *
+ * name: Name of the new descriptor is ffi_type_complex_&lt;name&gt;.
+ * type: The C base type of the complex type.
+ */
+#define FFI_COMPLEX_TYPEDEF(name, type, ffitype)             \
+  static ffi_type *ffi_elements_complex_##name [2] = {      \
+    (ffi_type *)(&amp;ffitype), NULL                             \
+  };                                                        \
+  struct struct_align_complex_##name {                      \
+    char c;                                                  \
+    _Complex type x;                                         \
+  };                                                        \
+  ffi_type ffi_type_complex_##name = {                      \
+    sizeof(_Complex type),                                   \
+    offsetof(struct struct_align_complex_##name, x),         \
+    FFI_TYPE_COMPLEX,                                        \
+    (ffi_type **)ffi_elements_complex_##name                 \
+  }
+
+/* Define new complex type descriptors using the macro: */
+/* ffi_type_complex_sint */
+FFI_COMPLEX_TYPEDEF(sint, int, ffi_type_sint);
+/* ffi_type_complex_uchar */
+FFI_COMPLEX_TYPEDEF(uchar, unsigned char, ffi_type_uint8);
+</pre></div>
+
+<p>The new type descriptors can then be used like one of the built-in
+type descriptors in the previous example.
+</p>
+
+
+
+</body>
+</html>

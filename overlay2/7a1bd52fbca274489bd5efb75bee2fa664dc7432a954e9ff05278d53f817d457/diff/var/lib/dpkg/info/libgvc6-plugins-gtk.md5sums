@@ -1,0 +1,6 @@
+452d8ad67c5ebe636fd7b4b54874769e  usr/lib/graphviz/libgvplugin_gdk.so.6.0.0
+2eb901f622ccc150e4f5fb99863b1603  usr/lib/graphviz/libgvplugin_gtk.so.6.0.0
+232e5fb2a56af36958d9b00a66701492  usr/share/doc/libgvc6-plugins-gtk/changelog.Debian.gz
+96373f128d87992cdcee909673e567f2  usr/share/doc/libgvc6-plugins-gtk/changelog.gz
+190911cb0d99b7e9eacc0313ab4bd30c  usr/share/doc/libgvc6-plugins-gtk/copyright
+d349d1169de6bfb5a67987d203563689  usr/share/lintian/overrides/libgvc6-plugins-gtk

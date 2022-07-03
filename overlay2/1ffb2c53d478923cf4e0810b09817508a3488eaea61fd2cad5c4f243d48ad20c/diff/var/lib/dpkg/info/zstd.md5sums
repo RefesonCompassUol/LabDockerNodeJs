@@ -1,0 +1,16 @@
+9b5f02d8760597ad760881aa22dde27b  usr/bin/pzstd
+0ed1082ed98db5203af2c02ba41ed972  usr/bin/zstd
+813e783f5ebeec8ea6ab58421e55b61f  usr/bin/zstdgrep
+a412a00e7fb3d605ecd9f45d507d1184  usr/bin/zstdless
+92ec4f1796f26fd2f2cde346e6f59a4f  usr/share/doc/zstd/CODE_OF_CONDUCT.md
+5430a03e6b1e9fdcf5a3e9aa7253db2b  usr/share/doc/zstd/CONTRIBUTING.md
+e1b2978cbf485933b8586b8466a289da  usr/share/doc/zstd/README.md.gz
+8e8609aae565569693340e7bbab49cf4  usr/share/doc/zstd/TESTING.md
+95e19a88ac49e098438b4795f42a7667  usr/share/doc/zstd/changelog.Debian.gz
+b44a1d7b42bac3250a7a66194f9d40d6  usr/share/doc/zstd/changelog.gz
+bfb02155165c9d32b4bd91aa16779d1c  usr/share/doc/zstd/copyright
+3128431ee5d77e5e78cd6041faae1d45  usr/share/lintian/overrides/zstd
+1e7ec9e1a68e654042a04568711f5069  usr/share/man/man1/pzstd.1.gz
+3ad5b00fa49a0010664835e7f4a5a312  usr/share/man/man1/zstd.1.gz
+56490fec8285d7fc74b12ac785c9d532  usr/share/man/man1/zstdgrep.1.gz
+827325c2fcd2f33a7e52527ca4244909  usr/share/man/man1/zstdless.1.gz

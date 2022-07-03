@@ -1,0 +1,12 @@
+update-alternatives 2022-06-23 00:54:29: run with --quiet --install /usr/bin/pinentry pinentry /usr/bin/pinentry-curses 50 --slave /usr/share/man/man1/pinentry.1.gz pinentry.1.gz /usr/share/man/man1/pinentry-curses.1.gz
+update-alternatives 2022-06-23 00:54:29: link group pinentry updated to point to /usr/bin/pinentry-curses
+update-alternatives 2022-06-23 00:54:41: run with --install /usr/bin/w w /usr/bin/w.procps 50 --slave /usr/share/man/man1/w.1.gz w.1.gz /usr/share/man/man1/w.procps.1.gz
+update-alternatives 2022-06-23 00:54:41: link group w updated to point to /usr/bin/w.procps
+update-alternatives 2022-06-23 00:54:41: run with --install /usr/bin/rename rename /usr/bin/prename 60 --slave /usr/share/man/man1/rename.1.gz rename.1.gz /usr/share/man/man1/prename.1.gz
+update-alternatives 2022-06-23 00:54:41: link group rename updated to point to /usr/bin/prename
+update-alternatives 2022-06-23 00:54:42: run with --quiet --install /usr/bin/rsh rsh /usr/bin/ssh 20 --slave /usr/share/man/man1/rsh.1.gz rsh.1.gz /usr/share/man/man1/ssh.1.gz
+update-alternatives 2022-06-23 00:54:42: link group rsh updated to point to /usr/bin/ssh
+update-alternatives 2022-06-23 00:54:42: run with --quiet --install /usr/bin/rlogin rlogin /usr/bin/slogin 20 --slave /usr/share/man/man1/rlogin.1.gz rlogin.1.gz /usr/share/man/man1/slogin.1.gz
+update-alternatives 2022-06-23 00:54:42: link group rlogin updated to point to /usr/bin/slogin
+update-alternatives 2022-06-23 00:54:42: run with --quiet --install /usr/bin/rcp rcp /usr/bin/scp 20 --slave /usr/share/man/man1/rcp.1.gz rcp.1.gz /usr/share/man/man1/scp.1.gz
+update-alternatives 2022-06-23 00:54:42: link group rcp updated to point to /usr/bin/scp

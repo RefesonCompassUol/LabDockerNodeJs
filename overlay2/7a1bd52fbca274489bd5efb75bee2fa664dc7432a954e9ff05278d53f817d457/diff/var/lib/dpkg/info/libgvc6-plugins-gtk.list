@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/graphviz
+/usr/lib/graphviz/libgvplugin_gdk.so.6.0.0
+/usr/lib/graphviz/libgvplugin_gtk.so.6.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgvc6-plugins-gtk
+/usr/share/doc/libgvc6-plugins-gtk/changelog.Debian.gz
+/usr/share/doc/libgvc6-plugins-gtk/changelog.gz
+/usr/share/doc/libgvc6-plugins-gtk/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libgvc6-plugins-gtk
+/usr/lib/graphviz/libgvplugin_gdk.so.6
+/usr/lib/graphviz/libgvplugin_gtk.so.6

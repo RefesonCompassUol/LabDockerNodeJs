@@ -1,0 +1,7 @@
+91f52a9261b3e511655f7782cf8c6b23  usr/bin/bzr
+b8d9ca95521a7c5f14860e205a854da2  usr/share/bash-completion/completions/bzr
+f4b5feca9428f6f4fb9fc1e757bafef3  usr/share/doc/bzr/NEWS.Debian.gz
+4c2b00fc1bf3937b6c833919a65dce90  usr/share/doc/bzr/TODO.Debian
+16ac49682794ec15dcfa652e775dd7af  usr/share/doc/bzr/changelog.Debian.gz
+7a52af5ce6d48d7d0a85c27f4a94d92f  usr/share/doc/bzr/copyright
+83a96a29eaa4cdae98ebecdd1cdca9ba  usr/share/man/man1/bzr.1.gz

@@ -1,0 +1,10 @@
+151acb438c2aad9f3ae17e09ac85e891  usr/bin/libpng16-config
+ba205c9cdd56fd5a5941f2825b2f6e0b  usr/include/libpng16/png.h
+bcd69fa9502aebd30be451e0ff51e960  usr/include/libpng16/pngconf.h
+1a7401b48c2fd22a4ec90c5860dd555d  usr/include/libpng16/pnglibconf.h
+f811414b27b24d27e2f7e59a29ef8201  usr/lib/x86_64-linux-gnu/libpng16.a
+76a93c0d2bbb65d769d66077474285aa  usr/lib/x86_64-linux-gnu/pkgconfig/libpng16.pc
+f5e2b974b4164fc544c257a594a51b83  usr/share/doc/libpng-dev/changelog.Debian.gz
+bf59ea80e51c20135120e47df2afbfeb  usr/share/doc/libpng-dev/changelog.gz
+ff176d54abfafe1e2fe8312d3416790e  usr/share/doc/libpng-dev/copyright
+7e7fd23edb110c878c79eb0143f4298a  usr/share/man/man1/libpng16-config.1.gz

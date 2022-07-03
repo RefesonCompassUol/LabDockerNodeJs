@@ -1,0 +1,24 @@
+#!/bin/sh
+set -e
+
+# If upgrading, postinst will restart. So we only need stop if removing.
+if [ -x "/etc/init.d/apache-htcacheclean" ] && [ "$1" = remove ] ; then
+	invoke-rc.d apache-htcacheclean stop || true
+fi
+
+# Automatically added by dh_installsystemd/13.3.4
+if [ -d /run/systemd/system ] && [ "$1" = remove ]; then
+	deb-systemd-invoke stop 'apache-htcacheclean.service' >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/13.3.4
+if [ -d /run/systemd/system ] && [ "$1" = remove ]; then
+	deb-systemd-invoke stop 'apache2.service' >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installinit/13.3.4
+if [ -x "/etc/init.d/apache2" ] && [ "$1" = remove ]; then
+	invoke-rc.d --skip-systemd-native apache2 stop || true
+fi
+# End automatically added section
+

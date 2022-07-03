@@ -1,0 +1,10 @@
+explorecanvas for Debian
+------------------------
+
+In order to make use of explorecanvas in your html, include the following lines
+in your html header:
+      
+       <!--[if IE]><script language="javascript" type="text/javascript"
+       src="/javascript/excanvas/excanvas.js"></script><![endif]-->
+
+ -- Marcelo Jorge Vieira (metal) <metal@alucinados.com>  Wed, 29 April 2009 16:12:0 -0300

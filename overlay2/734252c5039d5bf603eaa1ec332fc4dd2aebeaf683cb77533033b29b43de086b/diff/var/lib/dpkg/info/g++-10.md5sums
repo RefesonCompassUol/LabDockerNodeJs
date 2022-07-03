@@ -1,0 +1,5 @@
+0b0f0e6a48e46c0827ee262d5b348b2f  usr/bin/x86_64-linux-gnu-g++-10
+8d53bf4563987eee4a11fcfd717a24ed  usr/lib/gcc/x86_64-linux-gnu/10/cc1plus
+d34e924e0b649f39a4c876c1a4ec4e1f  usr/share/doc/gcc-10-base/C++/README.C++
+f2d45a3ce3cdd0505b26a13edecf886c  usr/share/doc/gcc-10-base/C++/changelog.gz
+579094036f62b003eb88423da97b75b4  usr/share/lintian/overrides/g++-10

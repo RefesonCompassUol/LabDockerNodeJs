@@ -1,0 +1,5 @@
+
+Start-Date: 2022-06-23  04:05:33
+Commandline: apt-get install -y --no-install-recommends gnupg dirmngr
+Install: gnupg-utils:amd64 (2.2.12-1+deb10u1, automatic), libsasl2-modules-db:amd64 (2.1.27+dfsg-1+deb10u2, automatic), gpg-wks-client:amd64 (2.2.12-1+deb10u1, automatic), libldap-2.4-2:amd64 (2.4.47+dfsg-3+deb10u7, automatic), gnupg-l10n:amd64 (2.2.12-1+deb10u1, automatic), libksba8:amd64 (1.3.5-2, automatic), libsqlite3-0:amd64 (3.27.2-3+deb10u1, automatic), gpg-wks-server:amd64 (2.2.12-1+deb10u1, automatic), gpg:amd64 (2.2.12-1+deb10u1, automatic), libsasl2-2:amd64 (2.1.27+dfsg-1+deb10u2, automatic), readline-common:amd64 (7.0-5, automatic), libassuan0:amd64 (2.5.2-1, automatic), dirmngr:amd64 (2.2.12-1+deb10u1), libldap-common:amd64 (2.4.47+dfsg-3+deb10u7, automatic), libreadline7:amd64 (7.0-5, automatic), lsb-base:amd64 (10.2019051400, automatic), gnupg:amd64 (2.2.12-1+deb10u1), pinentry-curses:amd64 (1.1.0-2, automatic), libnpth0:amd64 (1.6-1, automatic), gpg-agent:amd64 (2.2.12-1+deb10u1, automatic), gpgconf:amd64 (2.2.12-1+deb10u1, automatic), gpgsm:amd64 (2.2.12-1+deb10u1, automatic)
+End-Date: 2022-06-23  04:05:35

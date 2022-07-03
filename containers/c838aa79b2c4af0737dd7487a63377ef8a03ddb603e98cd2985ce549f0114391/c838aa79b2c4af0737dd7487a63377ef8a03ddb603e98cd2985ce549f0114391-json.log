@@ -1,0 +1,10 @@
+{"log":"npm ERR! code ENOENT\n","stream":"stderr","time":"2022-07-02T22:47:50.307820052Z"}
+{"log":"npm ERR! syscall open\n","stream":"stderr","time":"2022-07-02T22:47:50.307854167Z"}
+{"log":"npm ERR! path //package.json\n","stream":"stderr","time":"2022-07-02T22:47:50.307857764Z"}
+{"log":"npm ERR! errno -2\n","stream":"stderr","time":"2022-07-02T22:47:50.307860199Z"}
+{"log":"npm ERR! enoent ENOENT: no such file or directory, open '//package.json'\n","stream":"stderr","time":"2022-07-02T22:47:50.307862553Z"}
+{"log":"npm ERR! enoent This is related to npm not being able to find a file.\n","stream":"stderr","time":"2022-07-02T22:47:50.307864958Z"}
+{"log":"npm ERR! enoent \n","stream":"stderr","time":"2022-07-02T22:47:50.307867363Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-02T22:47:50.307869667Z"}
+{"log":"npm ERR! A complete log of this run can be found in:\n","stream":"stderr","time":"2022-07-02T22:47:50.307872082Z"}
+{"log":"npm ERR!     /root/.npm/_logs/2022-07-02T22_47_50_107Z-debug-0.log\n","stream":"stderr","time":"2022-07-02T22:47:50.307874506Z"}
