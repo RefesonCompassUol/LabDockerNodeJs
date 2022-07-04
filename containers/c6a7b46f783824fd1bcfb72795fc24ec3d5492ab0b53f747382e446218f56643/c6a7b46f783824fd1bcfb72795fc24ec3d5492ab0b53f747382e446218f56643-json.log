@@ -1,0 +1,20 @@
+{"log":"npm ERR! code ENOENT\n","stream":"stderr","time":"2022-07-04T14:59:35.976314293Z"}
+{"log":"npm ERR! syscall open\n","stream":"stderr","time":"2022-07-04T14:59:35.976351233Z"}
+{"log":"npm ERR! path //package.json\n","stream":"stderr","time":"2022-07-04T14:59:35.97635458Z"}
+{"log":"npm ERR! errno -2\n","stream":"stderr","time":"2022-07-04T14:59:35.976357034Z"}
+{"log":"npm ERR! enoent ENOENT: no such file or directory, open '//package.json'\n","stream":"stderr","time":"2022-07-04T14:59:35.976359449Z"}
+{"log":"npm ERR! enoent This is related to npm not being able to find a file.\n","stream":"stderr","time":"2022-07-04T14:59:35.976361864Z"}
+{"log":"npm ERR! enoent \n","stream":"stderr","time":"2022-07-04T14:59:35.976364278Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-04T14:59:35.976366573Z"}
+{"log":"npm ERR! A complete log of this run can be found in:\n","stream":"stderr","time":"2022-07-04T14:59:35.976368947Z"}
+{"log":"npm ERR!     /root/.npm/_logs/2022-07-04T14_59_35_913Z-debug-0.log\n","stream":"stderr","time":"2022-07-04T14:59:35.976371352Z"}
+{"log":"npm ERR! code ENOENT\n","stream":"stderr","time":"2022-07-04T15:27:37.417633248Z"}
+{"log":"npm ERR! syscall open\n","stream":"stderr","time":"2022-07-04T15:27:37.417661072Z"}
+{"log":"npm ERR! path //package.json\n","stream":"stderr","time":"2022-07-04T15:27:37.41766568Z"}
+{"log":"npm ERR! errno -2\n","stream":"stderr","time":"2022-07-04T15:27:37.417669618Z"}
+{"log":"npm ERR! enoent ENOENT: no such file or directory, open '//package.json'\n","stream":"stderr","time":"2022-07-04T15:27:37.417673435Z"}
+{"log":"npm ERR! enoent This is related to npm not being able to find a file.\n","stream":"stderr","time":"2022-07-04T15:27:37.417676241Z"}
+{"log":"npm ERR! enoent \n","stream":"stderr","time":"2022-07-04T15:27:37.417678996Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-04T15:27:37.417681711Z"}
+{"log":"npm ERR! A complete log of this run can be found in:\n","stream":"stderr","time":"2022-07-04T15:27:37.417684306Z"}
+{"log":"npm ERR!     /root/.npm/_logs/2022-07-04T15_27_37_352Z-debug-0.log\n","stream":"stderr","time":"2022-07-04T15:27:37.417687011Z"}

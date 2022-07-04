@@ -1,0 +1,439 @@
+{"log":"2022-07-04 14:59:33+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-04T14:59:33.038295513Z"}
+{"log":"2022-07-04 14:59:34+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'\n","stream":"stdout","time":"2022-07-04T14:59:34.141871991Z"}
+{"log":"2022-07-04 14:59:34+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-04T14:59:34.278131742Z"}
+{"log":"mysqld: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.\n","stream":"stderr","time":"2022-07-04T14:59:34.364778919Z"}
+{"log":"2022-07-04T14:59:34.604573Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).\n","stream":"stderr","time":"2022-07-04T14:59:34.624669024Z"}
+{"log":"2022-07-04T14:59:34.611326Z 0 [Warning] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-04T14:59:34.62469318Z"}
+{"log":"2022-07-04T14:59:34.611382Z 0 [Note] mysqld (mysqld 5.7.38) starting as process 1 ...\n","stream":"stderr","time":"2022-07-04T14:59:34.624696676Z"}
+{"log":"2022-07-04T14:59:34.624298Z 0 [Note] InnoDB: PUNCH HOLE support available\n","stream":"stderr","time":"2022-07-04T14:59:34.624699562Z"}
+{"log":"2022-07-04T14:59:34.624311Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins\n","stream":"stderr","time":"2022-07-04T14:59:34.624702297Z"}
+{"log":"2022-07-04T14:59:34.624313Z 0 [Note] InnoDB: Uses event mutexes\n","stream":"stderr","time":"2022-07-04T14:59:34.624705182Z"}
+{"log":"2022-07-04T14:59:34.624316Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier\n","stream":"stderr","time":"2022-07-04T14:59:34.624707897Z"}
+{"log":"2022-07-04T14:59:34.624318Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11\n","stream":"stderr","time":"2022-07-04T14:59:34.624710653Z"}
+{"log":"2022-07-04T14:59:34.624320Z 0 [Note] InnoDB: Using Linux native AIO\n","stream":"stderr","time":"2022-07-04T14:59:34.624713328Z"}
+{"log":"2022-07-04T14:59:34.624451Z 0 [Note] InnoDB: Number of pools: 1\n","stream":"stderr","time":"2022-07-04T14:59:34.624716003Z"}
+{"log":"2022-07-04T14:59:34.632976Z 0 [Note] InnoDB: Using CPU crc32 instructions\n","stream":"stderr","time":"2022-07-04T14:59:34.636409083Z"}
+{"log":"2022-07-04T14:59:34.641252Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M\n","stream":"stderr","time":"2022-07-04T14:59:34.644964974Z"}
+{"log":"2022-07-04T14:59:34.670353Z 0 [Note] InnoDB: Completed initialization of buffer pool\n","stream":"stderr","time":"2022-07-04T14:59:34.676548313Z"}
+{"log":"2022-07-04T14:59:34.676224Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().\n","stream":"stderr","time":"2022-07-04T14:59:34.676555667Z"}
+{"log":"2022-07-04T14:59:34.706045Z 0 [Note] InnoDB: Highest supported file format is Barracuda.\n","stream":"stderr","time":"2022-07-04T14:59:34.707827004Z"}
+{"log":"2022-07-04T14:59:34.747440Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables\n","stream":"stderr","time":"2022-07-04T14:59:34.751368737Z"}
+{"log":"2022-07-04T14:59:34.747671Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...\n","stream":"stderr","time":"2022-07-04T14:59:34.751390147Z"}
+{"log":"2022-07-04T14:59:34.924381Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.\n","stream":"stderr","time":"2022-07-04T14:59:34.929903795Z"}
+{"log":"2022-07-04T14:59:34.924767Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-04T14:59:34.929930195Z"}
+{"log":"2022-07-04T14:59:34.924772Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-04T14:59:34.929934403Z"}
+{"log":"2022-07-04T14:59:34.927230Z 0 [Note] InnoDB: Waiting for purge to start\n","stream":"stderr","time":"2022-07-04T14:59:34.929950163Z"}
+{"log":"2022-07-04T14:59:34.978533Z 0 [Note] InnoDB: 5.7.38 started; log sequence number 12661016\n","stream":"stderr","time":"2022-07-04T14:59:34.984479126Z"}
+{"log":"2022-07-04T14:59:34.981615Z 0 [Note] Plugin 'FEDERATED' is disabled.\n","stream":"stderr","time":"2022-07-04T14:59:34.984506157Z"}
+{"log":"2022-07-04T14:59:34.989744Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool\n","stream":"stderr","time":"2022-07-04T14:59:34.995935125Z"}
+{"log":"2022-07-04T14:59:34.996157Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220704 14:59:34\n","stream":"stderr","time":"2022-07-04T14:59:34.999274929Z"}
+{"log":"2022-07-04T14:59:34.997817Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.\n","stream":"stderr","time":"2022-07-04T14:59:34.999290488Z"}
+{"log":"2022-07-04T14:59:34.997826Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.\n","stream":"stderr","time":"2022-07-04T14:59:34.999293574Z"}
+{"log":"2022-07-04T14:59:34.997829Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-04T14:59:34.999296139Z"}
+{"log":"2022-07-04T14:59:34.997831Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-04T14:59:34.999298774Z"}
+{"log":"2022-07-04T14:59:34.998313Z 0 [Warning] CA certificate ca.pem is self signed.\n","stream":"stderr","time":"2022-07-04T14:59:34.999301289Z"}
+{"log":"2022-07-04T14:59:34.998334Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.\n","stream":"stderr","time":"2022-07-04T14:59:34.999303693Z"}
+{"log":"2022-07-04T14:59:34.998761Z 0 [Note] Server hostname (bind-address): '*'; port: 3306\n","stream":"stderr","time":"2022-07-04T14:59:34.999306178Z"}
+{"log":"2022-07-04T14:59:34.998797Z 0 [Note] IPv6 is available.\n","stream":"stderr","time":"2022-07-04T14:59:34.999308623Z"}
+{"log":"2022-07-04T14:59:34.998804Z 0 [Note]   - '::' resolves to '::';\n","stream":"stderr","time":"2022-07-04T14:59:34.999311007Z"}
+{"log":"2022-07-04T14:59:34.998818Z 0 [Note] Server socket created on IP: '::'.\n","stream":"stderr","time":"2022-07-04T14:59:34.999313392Z"}
+{"log":"2022-07-04T14:59:35.055399Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-04T14:59:35.057093228Z"}
+{"log":"2022-07-04T14:59:35.219390Z 0 [Note] Event Scheduler: Loaded 0 events\n","stream":"stderr","time":"2022-07-04T14:59:35.220423547Z"}
+{"log":"2022-07-04T14:59:35.219603Z 0 [Note] mysqld: ready for connections.\n","stream":"stderr","time":"2022-07-04T14:59:35.220448074Z"}
+{"log":"Version: '5.7.38'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)\n","stream":"stderr","time":"2022-07-04T14:59:35.22045113Z"}
+{"log":"2022-07-04T15:22:15.818337Z 0 [Note] Giving 0 client threads a chance to die gracefully\n","stream":"stderr","time":"2022-07-04T15:22:15.819701578Z"}
+{"log":"2022-07-04T15:22:15.818899Z 0 [Note] Shutting down slave threads\n","stream":"stderr","time":"2022-07-04T15:22:15.819721376Z"}
+{"log":"2022-07-04T15:22:15.818902Z 0 [Note] Forcefully disconnecting 0 remaining clients\n","stream":"stderr","time":"2022-07-04T15:22:15.819724893Z"}
+{"log":"2022-07-04T15:22:15.818907Z 0 [Note] Event Scheduler: Purging the queue. 0 events\n","stream":"stderr","time":"2022-07-04T15:22:15.819727748Z"}
+{"log":"2022-07-04T15:22:15.818947Z 0 [Note] Binlog end\n","stream":"stderr","time":"2022-07-04T15:22:15.819730453Z"}
+{"log":"2022-07-04T15:22:15.819358Z 0 [Note] Shutting down plugin 'ngram'\n","stream":"stderr","time":"2022-07-04T15:22:15.819733099Z"}
+{"log":"2022-07-04T15:22:15.819365Z 0 [Note] Shutting down plugin 'partition'\n","stream":"stderr","time":"2022-07-04T15:22:15.819735784Z"}
+{"log":"2022-07-04T15:22:15.819368Z 0 [Note] Shutting down plugin 'BLACKHOLE'\n","stream":"stderr","time":"2022-07-04T15:22:15.819745282Z"}
+{"log":"2022-07-04T15:22:15.819370Z 0 [Note] Shutting down plugin 'ARCHIVE'\n","stream":"stderr","time":"2022-07-04T15:22:15.819747767Z"}
+{"log":"2022-07-04T15:22:15.819372Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'\n","stream":"stderr","time":"2022-07-04T15:22:15.819750131Z"}
+{"log":"2022-07-04T15:22:15.819401Z 0 [Note] Shutting down plugin 'MRG_MYISAM'\n","stream":"stderr","time":"2022-07-04T15:22:15.819752616Z"}
+{"log":"2022-07-04T15:22:15.819403Z 0 [Note] Shutting down plugin 'MyISAM'\n","stream":"stderr","time":"2022-07-04T15:22:15.81975497Z"}
+{"log":"2022-07-04T15:22:15.819408Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'\n","stream":"stderr","time":"2022-07-04T15:22:15.819757365Z"}
+{"log":"2022-07-04T15:22:15.819411Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'\n","stream":"stderr","time":"2022-07-04T15:22:15.819759769Z"}
+{"log":"2022-07-04T15:22:15.819412Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'\n","stream":"stderr","time":"2022-07-04T15:22:15.819762154Z"}
+{"log":"2022-07-04T15:22:15.819414Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'\n","stream":"stderr","time":"2022-07-04T15:22:15.819764539Z"}
+{"log":"2022-07-04T15:22:15.819415Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'\n","stream":"stderr","time":"2022-07-04T15:22:15.819766933Z"}
+{"log":"2022-07-04T15:22:15.819417Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'\n","stream":"stderr","time":"2022-07-04T15:22:15.819769298Z"}
+{"log":"2022-07-04T15:22:15.819418Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'\n","stream":"stderr","time":"2022-07-04T15:22:15.819771742Z"}
+{"log":"2022-07-04T15:22:15.819420Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'\n","stream":"stderr","time":"2022-07-04T15:22:15.819774117Z"}
+{"log":"2022-07-04T15:22:15.819421Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'\n","stream":"stderr","time":"2022-07-04T15:22:15.819776511Z"}
+{"log":"2022-07-04T15:22:15.819422Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'\n","stream":"stderr","time":"2022-07-04T15:22:15.819779076Z"}
+{"log":"2022-07-04T15:22:15.819424Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'\n","stream":"stderr","time":"2022-07-04T15:22:15.819781471Z"}
+{"log":"2022-07-04T15:22:15.819425Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'\n","stream":"stderr","time":"2022-07-04T15:22:15.819783825Z"}
+{"log":"2022-07-04T15:22:15.819427Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'\n","stream":"stderr","time":"2022-07-04T15:22:15.81978619Z"}
+{"log":"2022-07-04T15:22:15.819428Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'\n","stream":"stderr","time":"2022-07-04T15:22:15.819788584Z"}
+{"log":"2022-07-04T15:22:15.819430Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'\n","stream":"stderr","time":"2022-07-04T15:22:15.81979163Z"}
+{"log":"2022-07-04T15:22:15.819431Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'\n","stream":"stderr","time":"2022-07-04T15:22:15.819794065Z"}
+{"log":"2022-07-04T15:22:15.819432Z 0 [Note] Shutting down plugin 'INNODB_METRICS'\n","stream":"stderr","time":"2022-07-04T15:22:15.819796459Z"}
+{"log":"2022-07-04T15:22:15.819434Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'\n","stream":"stderr","time":"2022-07-04T15:22:15.819798814Z"}
+{"log":"2022-07-04T15:22:15.819435Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'\n","stream":"stderr","time":"2022-07-04T15:22:15.819801189Z"}
+{"log":"2022-07-04T15:22:15.819437Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'\n","stream":"stderr","time":"2022-07-04T15:22:15.819803553Z"}
+{"log":"2022-07-04T15:22:15.819438Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'\n","stream":"stderr","time":"2022-07-04T15:22:15.819805918Z"}
+{"log":"2022-07-04T15:22:15.819439Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'\n","stream":"stderr","time":"2022-07-04T15:22:15.819808272Z"}
+{"log":"2022-07-04T15:22:15.819441Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'\n","stream":"stderr","time":"2022-07-04T15:22:15.819810737Z"}
+{"log":"2022-07-04T15:22:15.819442Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'\n","stream":"stderr","time":"2022-07-04T15:22:15.819815987Z"}
+{"log":"2022-07-04T15:22:15.819444Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'\n","stream":"stderr","time":"2022-07-04T15:22:15.819818401Z"}
+{"log":"2022-07-04T15:22:15.819445Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'\n","stream":"stderr","time":"2022-07-04T15:22:15.819820776Z"}
+{"log":"2022-07-04T15:22:15.819447Z 0 [Note] Shutting down plugin 'INNODB_CMP'\n","stream":"stderr","time":"2022-07-04T15:22:15.81982315Z"}
+{"log":"2022-07-04T15:22:15.819448Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'\n","stream":"stderr","time":"2022-07-04T15:22:15.819825515Z"}
+{"log":"2022-07-04T15:22:15.819450Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'\n","stream":"stderr","time":"2022-07-04T15:22:15.819827859Z"}
+{"log":"2022-07-04T15:22:15.819451Z 0 [Note] Shutting down plugin 'INNODB_TRX'\n","stream":"stderr","time":"2022-07-04T15:22:15.819830214Z"}
+{"log":"2022-07-04T15:22:15.819453Z 0 [Note] Shutting down plugin 'InnoDB'\n","stream":"stderr","time":"2022-07-04T15:22:15.819832649Z"}
+{"log":"2022-07-04T15:22:15.819491Z 0 [Note] InnoDB: FTS optimize thread exiting.\n","stream":"stderr","time":"2022-07-04T15:22:15.819834993Z"}
+{"log":"2022-07-04T15:22:15.819579Z 0 [Note] InnoDB: Starting shutdown...\n","stream":"stderr","time":"2022-07-04T15:22:15.819837358Z"}
+{"log":"2022-07-04T15:22:15.920070Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool\n","stream":"stderr","time":"2022-07-04T15:22:15.920692862Z"}
+{"log":"2022-07-04T15:22:15.920311Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220704 15:22:15\n","stream":"stderr","time":"2022-07-04T15:22:15.920709333Z"}
+{"log":"2022-07-04T15:22:17.431115Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12661044\n","stream":"stderr","time":"2022-07-04T15:22:17.43591458Z"}
+{"log":"2022-07-04T15:22:17.432828Z 0 [Note] InnoDB: Removed temporary tablespace data file: \"ibtmp1\"\n","stream":"stderr","time":"2022-07-04T15:22:17.43593551Z"}
+{"log":"2022-07-04T15:22:17.432847Z 0 [Note] Shutting down plugin 'MEMORY'\n","stream":"stderr","time":"2022-07-04T15:22:17.435938787Z"}
+{"log":"2022-07-04T15:22:17.432852Z 0 [Note] Shutting down plugin 'CSV'\n","stream":"stderr","time":"2022-07-04T15:22:17.435941402Z"}
+{"log":"2022-07-04T15:22:17.432857Z 0 [Note] Shutting down plugin 'sha256_password'\n","stream":"stderr","time":"2022-07-04T15:22:17.435943906Z"}
+{"log":"2022-07-04T15:22:17.432903Z 0 [Note] Shutting down plugin 'mysql_native_password'\n","stream":"stderr","time":"2022-07-04T15:22:17.435946381Z"}
+{"log":"2022-07-04T15:22:17.433040Z 0 [Note] Shutting down plugin 'binlog'\n","stream":"stderr","time":"2022-07-04T15:22:17.435948816Z"}
+{"log":"2022-07-04T15:22:17.433407Z 0 [Note] mysqld: Shutdown complete\n","stream":"stderr","time":"2022-07-04T15:22:17.43595121Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-04T15:22:17.435953625Z"}
+{"log":"2022-07-04 15:27:35+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-04T15:27:35.470376441Z"}
+{"log":"2022-07-04 15:27:35+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'\n","stream":"stdout","time":"2022-07-04T15:27:35.529752009Z"}
+{"log":"2022-07-04 15:27:35+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-04T15:27:35.529778259Z"}
+{"log":"mysqld: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.\n","stream":"stderr","time":"2022-07-04T15:27:35.647915561Z"}
+{"log":"2022-07-04T15:27:35.900458Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).\n","stream":"stderr","time":"2022-07-04T15:27:35.921504472Z"}
+{"log":"2022-07-04T15:27:35.903420Z 0 [Warning] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-04T15:27:35.921530722Z"}
+{"log":"2022-07-04T15:27:35.903444Z 0 [Note] mysqld (mysqld 5.7.38) starting as process 1 ...\n","stream":"stderr","time":"2022-07-04T15:27:35.92154509Z"}
+{"log":"2022-07-04T15:27:35.908053Z 0 [Note] InnoDB: PUNCH HOLE support available\n","stream":"stderr","time":"2022-07-04T15:27:35.921547785Z"}
+{"log":"2022-07-04T15:27:35.908071Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins\n","stream":"stderr","time":"2022-07-04T15:27:35.9215502Z"}
+{"log":"2022-07-04T15:27:35.908074Z 0 [Note] InnoDB: Uses event mutexes\n","stream":"stderr","time":"2022-07-04T15:27:35.921552644Z"}
+{"log":"2022-07-04T15:27:35.908076Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier\n","stream":"stderr","time":"2022-07-04T15:27:35.921555049Z"}
+{"log":"2022-07-04T15:27:35.908078Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11\n","stream":"stderr","time":"2022-07-04T15:27:35.921557453Z"}
+{"log":"2022-07-04T15:27:35.908081Z 0 [Note] InnoDB: Using Linux native AIO\n","stream":"stderr","time":"2022-07-04T15:27:35.921559798Z"}
+{"log":"2022-07-04T15:27:35.908225Z 0 [Note] InnoDB: Number of pools: 1\n","stream":"stderr","time":"2022-07-04T15:27:35.921562213Z"}
+{"log":"2022-07-04T15:27:35.908285Z 0 [Note] InnoDB: Using CPU crc32 instructions\n","stream":"stderr","time":"2022-07-04T15:27:35.921564497Z"}
+{"log":"2022-07-04T15:27:35.911787Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M\n","stream":"stderr","time":"2022-07-04T15:27:35.921566851Z"}
+{"log":"2022-07-04T15:27:35.928788Z 0 [Note] InnoDB: Completed initialization of buffer pool\n","stream":"stderr","time":"2022-07-04T15:27:35.933939849Z"}
+{"log":"2022-07-04T15:27:35.934784Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().\n","stream":"stderr","time":"2022-07-04T15:27:35.934928589Z"}
+{"log":"2022-07-04T15:27:35.949175Z 0 [Note] InnoDB: Highest supported file format is Barracuda.\n","stream":"stderr","time":"2022-07-04T15:27:35.950377769Z"}
+{"log":"2022-07-04T15:27:36.011895Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables\n","stream":"stderr","time":"2022-07-04T15:27:36.024485215Z"}
+{"log":"2022-07-04T15:27:36.011968Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...\n","stream":"stderr","time":"2022-07-04T15:27:36.024520803Z"}
+{"log":"2022-07-04T15:27:36.382454Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.\n","stream":"stderr","time":"2022-07-04T15:27:36.383881904Z"}
+{"log":"2022-07-04T15:27:36.383095Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-04T15:27:36.383907453Z"}
+{"log":"2022-07-04T15:27:36.383103Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-04T15:27:36.3839108Z"}
+{"log":"2022-07-04T15:27:36.383541Z 0 [Note] InnoDB: Waiting for purge to start\n","stream":"stderr","time":"2022-07-04T15:27:36.383913485Z"}
+{"log":"2022-07-04T15:27:36.437868Z 0 [Note] InnoDB: 5.7.38 started; log sequence number 12661044\n","stream":"stderr","time":"2022-07-04T15:27:36.439818255Z"}
+{"log":"2022-07-04T15:27:36.438485Z 0 [Note] Plugin 'FEDERATED' is disabled.\n","stream":"stderr","time":"2022-07-04T15:27:36.439844084Z"}
+{"log":"2022-07-04T15:27:36.442056Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.\n","stream":"stderr","time":"2022-07-04T15:27:36.442895869Z"}
+{"log":"2022-07-04T15:27:36.442069Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.\n","stream":"stderr","time":"2022-07-04T15:27:36.44290681Z"}
+{"log":"2022-07-04T15:27:36.442073Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-04T15:27:36.442909886Z"}
+{"log":"2022-07-04T15:27:36.442074Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-04T15:27:36.442919955Z"}
+{"log":"2022-07-04T15:27:36.442460Z 0 [Warning] CA certificate ca.pem is self signed.\n","stream":"stderr","time":"2022-07-04T15:27:36.44292264Z"}
+{"log":"2022-07-04T15:27:36.442478Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.\n","stream":"stderr","time":"2022-07-04T15:27:36.442925125Z"}
+{"log":"2022-07-04T15:27:36.443300Z 0 [Note] Server hostname (bind-address): '*'; port: 3306\n","stream":"stderr","time":"2022-07-04T15:27:36.453602781Z"}
+{"log":"2022-07-04T15:27:36.443605Z 0 [Note] IPv6 is available.\n","stream":"stderr","time":"2022-07-04T15:27:36.453609744Z"}
+{"log":"2022-07-04T15:27:36.443617Z 0 [Note]   - '::' resolves to '::';\n","stream":"stderr","time":"2022-07-04T15:27:36.453612269Z"}
+{"log":"2022-07-04T15:27:36.443633Z 0 [Note] Server socket created on IP: '::'.\n","stream":"stderr","time":"2022-07-04T15:27:36.453614694Z"}
+{"log":"2022-07-04T15:27:36.443917Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool\n","stream":"stderr","time":"2022-07-04T15:27:36.453617289Z"}
+{"log":"2022-07-04T15:27:36.444482Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220704 15:27:36\n","stream":"stderr","time":"2022-07-04T15:27:36.453619753Z"}
+{"log":"2022-07-04T15:27:36.480258Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-04T15:27:36.48777003Z"}
+{"log":"2022-07-04T15:27:36.608103Z 0 [Note] Event Scheduler: Loaded 0 events\n","stream":"stderr","time":"2022-07-04T15:27:36.608598536Z"}
+{"log":"2022-07-04T15:27:36.608253Z 0 [Note] mysqld: ready for connections.\n","stream":"stderr","time":"2022-07-04T15:27:36.608620539Z"}
+{"log":"Version: '5.7.38'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)\n","stream":"stderr","time":"2022-07-04T15:27:36.608623584Z"}
+{"log":"2022-07-04T15:33:46.942779Z 0 [Note] Giving 0 client threads a chance to die gracefully\n","stream":"stderr","time":"2022-07-04T15:33:47.046931609Z"}
+{"log":"2022-07-04T15:33:46.943276Z 0 [Note] Shutting down slave threads\n","stream":"stderr","time":"2022-07-04T15:33:47.04695299Z"}
+{"log":"2022-07-04T15:33:46.943280Z 0 [Note] Forcefully disconnecting 0 remaining clients\n","stream":"stderr","time":"2022-07-04T15:33:47.046956487Z"}
+{"log":"2022-07-04T15:33:46.943286Z 0 [Note] Event Scheduler: Purging the queue. 0 events\n","stream":"stderr","time":"2022-07-04T15:33:47.046959312Z"}
+{"log":"2022-07-04T15:33:46.943376Z 0 [Note] Binlog end\n","stream":"stderr","time":"2022-07-04T15:33:47.046962057Z"}
+{"log":"2022-07-04T15:33:46.943792Z 0 [Note] Shutting down plugin 'ngram'\n","stream":"stderr","time":"2022-07-04T15:33:47.046964702Z"}
+{"log":"2022-07-04T15:33:46.943797Z 0 [Note] Shutting down plugin 'partition'\n","stream":"stderr","time":"2022-07-04T15:33:47.046967367Z"}
+{"log":"2022-07-04T15:33:46.943799Z 0 [Note] Shutting down plugin 'BLACKHOLE'\n","stream":"stderr","time":"2022-07-04T15:33:47.046970183Z"}
+{"log":"2022-07-04T15:33:46.943802Z 0 [Note] Shutting down plugin 'ARCHIVE'\n","stream":"stderr","time":"2022-07-04T15:33:47.046972838Z"}
+{"log":"2022-07-04T15:33:46.943803Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'\n","stream":"stderr","time":"2022-07-04T15:33:47.046975463Z"}
+{"log":"2022-07-04T15:33:46.943834Z 0 [Note] Shutting down plugin 'MRG_MYISAM'\n","stream":"stderr","time":"2022-07-04T15:33:47.046978148Z"}
+{"log":"2022-07-04T15:33:46.943836Z 0 [Note] Shutting down plugin 'MyISAM'\n","stream":"stderr","time":"2022-07-04T15:33:47.046980783Z"}
+{"log":"2022-07-04T15:33:46.943841Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'\n","stream":"stderr","time":"2022-07-04T15:33:47.046983408Z"}
+{"log":"2022-07-04T15:33:46.943843Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'\n","stream":"stderr","time":"2022-07-04T15:33:47.046986063Z"}
+{"log":"2022-07-04T15:33:46.943845Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'\n","stream":"stderr","time":"2022-07-04T15:33:47.047129186Z"}
+{"log":"2022-07-04T15:33:46.943846Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'\n","stream":"stderr","time":"2022-07-04T15:33:47.047134617Z"}
+{"log":"2022-07-04T15:33:46.943848Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'\n","stream":"stderr","time":"2022-07-04T15:33:47.047137141Z"}
+{"log":"2022-07-04T15:33:46.943849Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'\n","stream":"stderr","time":"2022-07-04T15:33:47.047139546Z"}
+{"log":"2022-07-04T15:33:46.943850Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'\n","stream":"stderr","time":"2022-07-04T15:33:47.04714194Z"}
+{"log":"2022-07-04T15:33:46.943852Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'\n","stream":"stderr","time":"2022-07-04T15:33:47.047144415Z"}
+{"log":"2022-07-04T15:33:46.943853Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'\n","stream":"stderr","time":"2022-07-04T15:33:47.0471468Z"}
+{"log":"2022-07-04T15:33:46.943855Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'\n","stream":"stderr","time":"2022-07-04T15:33:47.047149264Z"}
+{"log":"2022-07-04T15:33:46.943856Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'\n","stream":"stderr","time":"2022-07-04T15:33:47.047151659Z"}
+{"log":"2022-07-04T15:33:46.943858Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'\n","stream":"stderr","time":"2022-07-04T15:33:47.047154124Z"}
+{"log":"2022-07-04T15:33:46.943859Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'\n","stream":"stderr","time":"2022-07-04T15:33:47.047156498Z"}
+{"log":"2022-07-04T15:33:46.943861Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'\n","stream":"stderr","time":"2022-07-04T15:33:47.047158873Z"}
+{"log":"2022-07-04T15:33:46.943862Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'\n","stream":"stderr","time":"2022-07-04T15:33:47.047162299Z"}
+{"log":"2022-07-04T15:33:46.943863Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'\n","stream":"stderr","time":"2022-07-04T15:33:47.047164714Z"}
+{"log":"2022-07-04T15:33:46.943865Z 0 [Note] Shutting down plugin 'INNODB_METRICS'\n","stream":"stderr","time":"2022-07-04T15:33:47.047167129Z"}
+{"log":"2022-07-04T15:33:46.943866Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'\n","stream":"stderr","time":"2022-07-04T15:33:47.047169493Z"}
+{"log":"2022-07-04T15:33:46.943868Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'\n","stream":"stderr","time":"2022-07-04T15:33:47.047171868Z"}
+{"log":"2022-07-04T15:33:46.943869Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'\n","stream":"stderr","time":"2022-07-04T15:33:47.047174342Z"}
+{"log":"2022-07-04T15:33:46.943870Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'\n","stream":"stderr","time":"2022-07-04T15:33:47.047176717Z"}
+{"log":"2022-07-04T15:33:46.943872Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'\n","stream":"stderr","time":"2022-07-04T15:33:47.047179091Z"}
+{"log":"2022-07-04T15:33:46.943873Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'\n","stream":"stderr","time":"2022-07-04T15:33:47.047181476Z"}
+{"log":"2022-07-04T15:33:46.943875Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'\n","stream":"stderr","time":"2022-07-04T15:33:47.04718385Z"}
+{"log":"2022-07-04T15:33:46.943876Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'\n","stream":"stderr","time":"2022-07-04T15:33:47.047186245Z"}
+{"log":"2022-07-04T15:33:46.943877Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'\n","stream":"stderr","time":"2022-07-04T15:33:47.04718861Z"}
+{"log":"2022-07-04T15:33:46.943879Z 0 [Note] Shutting down plugin 'INNODB_CMP'\n","stream":"stderr","time":"2022-07-04T15:33:47.047190984Z"}
+{"log":"2022-07-04T15:33:46.943880Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'\n","stream":"stderr","time":"2022-07-04T15:33:47.047193419Z"}
+{"log":"2022-07-04T15:33:46.943882Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'\n","stream":"stderr","time":"2022-07-04T15:33:47.047195793Z"}
+{"log":"2022-07-04T15:33:46.943883Z 0 [Note] Shutting down plugin 'INNODB_TRX'\n","stream":"stderr","time":"2022-07-04T15:33:47.047201384Z"}
+{"log":"2022-07-04T15:33:46.943885Z 0 [Note] Shutting down plugin 'InnoDB'\n","stream":"stderr","time":"2022-07-04T15:33:47.047203839Z"}
+{"log":"2022-07-04T15:33:46.943922Z 0 [Note] InnoDB: FTS optimize thread exiting.\n","stream":"stderr","time":"2022-07-04T15:33:47.047206183Z"}
+{"log":"2022-07-04T15:33:46.944067Z 0 [Note] InnoDB: Starting shutdown...\n","stream":"stderr","time":"2022-07-04T15:33:47.047208558Z"}
+{"log":"2022-07-04T15:33:47.044357Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool\n","stream":"stderr","time":"2022-07-04T15:33:47.048549346Z"}
+{"log":"2022-07-04T15:33:47.044547Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220704 15:33:47\n","stream":"stderr","time":"2022-07-04T15:33:47.048559005Z"}
+{"log":"2022-07-04T15:33:48.457252Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12661072\n","stream":"stderr","time":"2022-07-04T15:33:48.461222303Z"}
+{"log":"2022-07-04T15:33:48.460461Z 0 [Note] InnoDB: Removed temporary tablespace data file: \"ibtmp1\"\n","stream":"stderr","time":"2022-07-04T15:33:48.461243083Z"}
+{"log":"2022-07-04T15:33:48.460484Z 0 [Note] Shutting down plugin 'MEMORY'\n","stream":"stderr","time":"2022-07-04T15:33:48.46124655Z"}
+{"log":"2022-07-04T15:33:48.460490Z 0 [Note] Shutting down plugin 'CSV'\n","stream":"stderr","time":"2022-07-04T15:33:48.461249425Z"}
+{"log":"2022-07-04T15:33:48.460494Z 0 [Note] Shutting down plugin 'sha256_password'\n","stream":"stderr","time":"2022-07-04T15:33:48.46125218Z"}
+{"log":"2022-07-04T15:33:48.460497Z 0 [Note] Shutting down plugin 'mysql_native_password'\n","stream":"stderr","time":"2022-07-04T15:33:48.461254876Z"}
+{"log":"2022-07-04T15:33:48.460625Z 0 [Note] Shutting down plugin 'binlog'\n","stream":"stderr","time":"2022-07-04T15:33:48.461258162Z"}
+{"log":"2022-07-04T15:33:48.461104Z 0 [Note] mysqld: Shutdown complete\n","stream":"stderr","time":"2022-07-04T15:33:48.461260867Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-04T15:33:48.461263562Z"}
+{"log":"2022-07-04 15:34:38+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-04T15:34:39.0568223Z"}
+{"log":"2022-07-04 15:34:47+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'\n","stream":"stdout","time":"2022-07-04T15:34:47.315311449Z"}
+{"log":"2022-07-04 15:34:47+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-04T15:34:47.438430235Z"}
+{"log":"mysqld: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.\n","stream":"stderr","time":"2022-07-04T15:34:47.558769337Z"}
+{"log":"2022-07-04T15:34:47.728896Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).\n","stream":"stderr","time":"2022-07-04T15:34:47.733119423Z"}
+{"log":"2022-07-04T15:34:47.730679Z 0 [Warning] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-04T15:34:47.733163828Z"}
+{"log":"2022-07-04T15:34:47.730714Z 0 [Note] mysqld (mysqld 5.7.38) starting as process 1 ...\n","stream":"stderr","time":"2022-07-04T15:34:47.733167424Z"}
+{"log":"2022-07-04T15:34:47.736985Z 0 [Note] InnoDB: PUNCH HOLE support available\n","stream":"stderr","time":"2022-07-04T15:34:47.743784416Z"}
+{"log":"2022-07-04T15:34:47.737004Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins\n","stream":"stderr","time":"2022-07-04T15:34:47.743815375Z"}
+{"log":"2022-07-04T15:34:47.737007Z 0 [Note] InnoDB: Uses event mutexes\n","stream":"stderr","time":"2022-07-04T15:34:47.743818721Z"}
+{"log":"2022-07-04T15:34:47.737010Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier\n","stream":"stderr","time":"2022-07-04T15:34:47.743821456Z"}
+{"log":"2022-07-04T15:34:47.737012Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11\n","stream":"stderr","time":"2022-07-04T15:34:47.743840683Z"}
+{"log":"2022-07-04T15:34:47.737014Z 0 [Note] InnoDB: Using Linux native AIO\n","stream":"stderr","time":"2022-07-04T15:34:47.743843238Z"}
+{"log":"2022-07-04T15:34:47.737162Z 0 [Note] InnoDB: Number of pools: 1\n","stream":"stderr","time":"2022-07-04T15:34:47.743845612Z"}
+{"log":"2022-07-04T15:34:47.737223Z 0 [Note] InnoDB: Using CPU crc32 instructions\n","stream":"stderr","time":"2022-07-04T15:34:47.743847967Z"}
+{"log":"2022-07-04T15:34:47.738519Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M\n","stream":"stderr","time":"2022-07-04T15:34:47.743850502Z"}
+{"log":"2022-07-04T15:34:47.746487Z 0 [Note] InnoDB: Completed initialization of buffer pool\n","stream":"stderr","time":"2022-07-04T15:34:47.747258986Z"}
+{"log":"2022-07-04T15:34:47.748906Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().\n","stream":"stderr","time":"2022-07-04T15:34:47.749025147Z"}
+{"log":"2022-07-04T15:34:47.820510Z 0 [Note] InnoDB: Highest supported file format is Barracuda.\n","stream":"stderr","time":"2022-07-04T15:34:47.820761466Z"}
+{"log":"2022-07-04T15:34:47.992871Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables\n","stream":"stderr","time":"2022-07-04T15:34:47.994363514Z"}
+{"log":"2022-07-04T15:34:47.992977Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...\n","stream":"stderr","time":"2022-07-04T15:34:47.994381829Z"}
+{"log":"2022-07-04T15:34:48.319619Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.\n","stream":"stderr","time":"2022-07-04T15:34:48.321124908Z"}
+{"log":"2022-07-04T15:34:48.320008Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-04T15:34:48.321148994Z"}
+{"log":"2022-07-04T15:34:48.320012Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-04T15:34:48.32115226Z"}
+{"log":"2022-07-04T15:34:48.320808Z 0 [Note] InnoDB: Waiting for purge to start\n","stream":"stderr","time":"2022-07-04T15:34:48.321154875Z"}
+{"log":"2022-07-04T15:34:48.370992Z 0 [Note] InnoDB: 5.7.38 started; log sequence number 12661072\n","stream":"stderr","time":"2022-07-04T15:34:48.372030123Z"}
+{"log":"2022-07-04T15:34:48.371724Z 0 [Note] Plugin 'FEDERATED' is disabled.\n","stream":"stderr","time":"2022-07-04T15:34:48.372052385Z"}
+{"log":"2022-07-04T15:34:48.371912Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool\n","stream":"stderr","time":"2022-07-04T15:34:48.372055381Z"}
+{"log":"2022-07-04T15:34:48.813445Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.\n","stream":"stderr","time":"2022-07-04T15:34:48.813822541Z"}
+{"log":"2022-07-04T15:34:48.813467Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.\n","stream":"stderr","time":"2022-07-04T15:34:48.813845317Z"}
+{"log":"2022-07-04T15:34:48.813470Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-04T15:34:48.81384841Z"}
+{"log":"2022-07-04T15:34:48.813472Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-04T15:34:48.813850984Z"}
+{"log":"2022-07-04T15:34:48.899337Z 0 [Warning] CA certificate ca.pem is self signed.\n","stream":"stderr","time":"2022-07-04T15:34:48.899519579Z"}
+{"log":"2022-07-04T15:34:48.899379Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.\n","stream":"stderr","time":"2022-07-04T15:34:48.899543043Z"}
+{"log":"2022-07-04T15:34:48.970588Z 0 [Note] Server hostname (bind-address): '*'; port: 3306\n","stream":"stderr","time":"2022-07-04T15:34:48.97125185Z"}
+{"log":"2022-07-04T15:34:48.970877Z 0 [Note] IPv6 is available.\n","stream":"stderr","time":"2022-07-04T15:34:48.971271344Z"}
+{"log":"2022-07-04T15:34:48.970886Z 0 [Note]   - '::' resolves to '::';\n","stream":"stderr","time":"2022-07-04T15:34:48.971283824Z"}
+{"log":"2022-07-04T15:34:48.970953Z 0 [Note] Server socket created on IP: '::'.\n","stream":"stderr","time":"2022-07-04T15:34:48.971286408Z"}
+{"log":"2022-07-04T15:34:49.192841Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-04T15:34:49.193634814Z"}
+{"log":"2022-07-04T15:34:49.281765Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220704 15:34:49\n","stream":"stderr","time":"2022-07-04T15:34:49.28187239Z"}
+{"log":"2022-07-04T15:34:51.151855Z 0 [Note] Event Scheduler: Loaded 0 events\n","stream":"stderr","time":"2022-07-04T15:34:51.152682923Z"}
+{"log":"2022-07-04T15:34:51.152597Z 0 [Note] mysqld: ready for connections.\n","stream":"stderr","time":"2022-07-04T15:34:51.152697831Z"}
+{"log":"Version: '5.7.38'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)\n","stream":"stderr","time":"2022-07-04T15:34:51.152700907Z"}
+{"log":"2022-07-04T15:38:58.921223Z 0 [Note] Giving 0 client threads a chance to die gracefully\n","stream":"stderr","time":"2022-07-04T15:38:58.996813995Z"}
+{"log":"2022-07-04T15:38:58.921786Z 0 [Note] Shutting down slave threads\n","stream":"stderr","time":"2022-07-04T15:38:58.996821118Z"}
+{"log":"2022-07-04T15:38:58.921790Z 0 [Note] Forcefully disconnecting 0 remaining clients\n","stream":"stderr","time":"2022-07-04T15:38:58.996824154Z"}
+{"log":"2022-07-04T15:38:58.921795Z 0 [Note] Event Scheduler: Purging the queue. 0 events\n","stream":"stderr","time":"2022-07-04T15:38:58.996826979Z"}
+{"log":"2022-07-04T15:38:58.921843Z 0 [Note] Binlog end\n","stream":"stderr","time":"2022-07-04T15:38:58.996829705Z"}
+{"log":"2022-07-04T15:38:58.922208Z 0 [Note] Shutting down plugin 'ngram'\n","stream":"stderr","time":"2022-07-04T15:38:58.99683233Z"}
+{"log":"2022-07-04T15:38:58.922213Z 0 [Note] Shutting down plugin 'partition'\n","stream":"stderr","time":"2022-07-04T15:38:58.996835095Z"}
+{"log":"2022-07-04T15:38:58.922215Z 0 [Note] Shutting down plugin 'BLACKHOLE'\n","stream":"stderr","time":"2022-07-04T15:38:58.99683789Z"}
+{"log":"2022-07-04T15:38:58.922217Z 0 [Note] Shutting down plugin 'ARCHIVE'\n","stream":"stderr","time":"2022-07-04T15:38:58.996840585Z"}
+{"log":"2022-07-04T15:38:58.922219Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'\n","stream":"stderr","time":"2022-07-04T15:38:58.99684323Z"}
+{"log":"2022-07-04T15:38:58.922247Z 0 [Note] Shutting down plugin 'MRG_MYISAM'\n","stream":"stderr","time":"2022-07-04T15:38:58.996845936Z"}
+{"log":"2022-07-04T15:38:58.922250Z 0 [Note] Shutting down plugin 'MyISAM'\n","stream":"stderr","time":"2022-07-04T15:38:58.996848601Z"}
+{"log":"2022-07-04T15:38:58.922254Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'\n","stream":"stderr","time":"2022-07-04T15:38:58.996851296Z"}
+{"log":"2022-07-04T15:38:58.922282Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'\n","stream":"stderr","time":"2022-07-04T15:38:58.996853961Z"}
+{"log":"2022-07-04T15:38:58.922284Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'\n","stream":"stderr","time":"2022-07-04T15:38:58.996856616Z"}
+{"log":"2022-07-04T15:38:58.922285Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'\n","stream":"stderr","time":"2022-07-04T15:38:58.996859431Z"}
+{"log":"2022-07-04T15:38:58.922287Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'\n","stream":"stderr","time":"2022-07-04T15:38:58.996862116Z"}
+{"log":"2022-07-04T15:38:58.922288Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'\n","stream":"stderr","time":"2022-07-04T15:38:58.996864812Z"}
+{"log":"2022-07-04T15:38:58.922290Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'\n","stream":"stderr","time":"2022-07-04T15:38:58.996867477Z"}
+{"log":"2022-07-04T15:38:58.922291Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'\n","stream":"stderr","time":"2022-07-04T15:38:58.996870122Z"}
+{"log":"2022-07-04T15:38:58.922293Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'\n","stream":"stderr","time":"2022-07-04T15:38:58.996882716Z"}
+{"log":"2022-07-04T15:38:58.922294Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'\n","stream":"stderr","time":"2022-07-04T15:38:58.996885241Z"}
+{"log":"2022-07-04T15:38:58.922295Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'\n","stream":"stderr","time":"2022-07-04T15:38:58.996887615Z"}
+{"log":"2022-07-04T15:38:58.922297Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'\n","stream":"stderr","time":"2022-07-04T15:38:58.99689009Z"}
+{"log":"2022-07-04T15:38:58.922298Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'\n","stream":"stderr","time":"2022-07-04T15:38:58.996892484Z"}
+{"log":"2022-07-04T15:38:58.922300Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'\n","stream":"stderr","time":"2022-07-04T15:38:58.996894849Z"}
+{"log":"2022-07-04T15:38:58.922301Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'\n","stream":"stderr","time":"2022-07-04T15:38:58.996897564Z"}
+{"log":"2022-07-04T15:38:58.922303Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'\n","stream":"stderr","time":"2022-07-04T15:38:58.996899949Z"}
+{"log":"2022-07-04T15:38:58.922304Z 0 [Note] Shutting down plugin 'INNODB_METRICS'\n","stream":"stderr","time":"2022-07-04T15:38:58.996902483Z"}
+{"log":"2022-07-04T15:38:58.922306Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'\n","stream":"stderr","time":"2022-07-04T15:38:58.996904868Z"}
+{"log":"2022-07-04T15:38:58.922307Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'\n","stream":"stderr","time":"2022-07-04T15:38:58.996907243Z"}
+{"log":"2022-07-04T15:38:58.922309Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'\n","stream":"stderr","time":"2022-07-04T15:38:58.996909677Z"}
+{"log":"2022-07-04T15:38:58.922310Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'\n","stream":"stderr","time":"2022-07-04T15:38:58.996912052Z"}
+{"log":"2022-07-04T15:38:58.922312Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'\n","stream":"stderr","time":"2022-07-04T15:38:58.996914406Z"}
+{"log":"2022-07-04T15:38:58.922313Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'\n","stream":"stderr","time":"2022-07-04T15:38:58.996916781Z"}
+{"log":"2022-07-04T15:38:58.922314Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'\n","stream":"stderr","time":"2022-07-04T15:38:58.996919185Z"}
+{"log":"2022-07-04T15:38:58.922316Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'\n","stream":"stderr","time":"2022-07-04T15:38:58.99692155Z"}
+{"log":"2022-07-04T15:38:58.922317Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'\n","stream":"stderr","time":"2022-07-04T15:38:58.996923954Z"}
+{"log":"2022-07-04T15:38:58.922319Z 0 [Note] Shutting down plugin 'INNODB_CMP'\n","stream":"stderr","time":"2022-07-04T15:38:58.996926329Z"}
+{"log":"2022-07-04T15:38:58.922320Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'\n","stream":"stderr","time":"2022-07-04T15:38:58.996928754Z"}
+{"log":"2022-07-04T15:38:58.922322Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'\n","stream":"stderr","time":"2022-07-04T15:38:58.996931138Z"}
+{"log":"2022-07-04T15:38:58.922323Z 0 [Note] Shutting down plugin 'INNODB_TRX'\n","stream":"stderr","time":"2022-07-04T15:38:58.996933483Z"}
+{"log":"2022-07-04T15:38:58.922325Z 0 [Note] Shutting down plugin 'InnoDB'\n","stream":"stderr","time":"2022-07-04T15:38:58.996935837Z"}
+{"log":"2022-07-04T15:38:58.922362Z 0 [Note] InnoDB: FTS optimize thread exiting.\n","stream":"stderr","time":"2022-07-04T15:38:58.996938192Z"}
+{"log":"2022-07-04T15:38:58.922448Z 0 [Note] InnoDB: Starting shutdown...\n","stream":"stderr","time":"2022-07-04T15:38:58.996940556Z"}
+{"log":"2022-07-04T15:38:59.025621Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool\n","stream":"stderr","time":"2022-07-04T15:38:59.026513745Z"}
+{"log":"2022-07-04T15:38:59.025820Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220704 15:38:59\n","stream":"stderr","time":"2022-07-04T15:38:59.026530026Z"}
+{"log":"2022-07-04T15:39:00.666078Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12661100\n","stream":"stderr","time":"2022-07-04T15:39:00.666844317Z"}
+{"log":"2022-07-04T15:39:00.668303Z 0 [Note] InnoDB: Removed temporary tablespace data file: \"ibtmp1\"\n","stream":"stderr","time":"2022-07-04T15:39:00.668379838Z"}
+{"log":"2022-07-04T15:39:00.668414Z 0 [Note] Shutting down plugin 'MEMORY'\n","stream":"stderr","time":"2022-07-04T15:39:00.66843811Z"}
+{"log":"2022-07-04T15:39:00.668454Z 0 [Note] Shutting down plugin 'CSV'\n","stream":"stderr","time":"2022-07-04T15:39:00.668472315Z"}
+{"log":"2022-07-04T15:39:00.668487Z 0 [Note] Shutting down plugin 'sha256_password'\n","stream":"stderr","time":"2022-07-04T15:39:00.668504827Z"}
+{"log":"2022-07-04T15:39:00.668517Z 0 [Note] Shutting down plugin 'mysql_native_password'\n","stream":"stderr","time":"2022-07-04T15:39:00.668534484Z"}
+{"log":"2022-07-04T15:39:00.668686Z 0 [Note] Shutting down plugin 'binlog'\n","stream":"stderr","time":"2022-07-04T15:39:00.668732021Z"}
+{"log":"2022-07-04T15:39:00.669094Z 0 [Note] mysqld: Shutdown complete\n","stream":"stderr","time":"2022-07-04T15:39:00.669122606Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-04T15:39:00.669128317Z"}
+{"log":"2022-07-04 15:39:34+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-04T15:39:34.873940355Z"}
+{"log":"2022-07-04 15:39:36+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'\n","stream":"stdout","time":"2022-07-04T15:39:36.665765188Z"}
+{"log":"2022-07-04 15:39:36+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-04T15:39:36.724296763Z"}
+{"log":"mysqld: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.\n","stream":"stderr","time":"2022-07-04T15:39:36.809950646Z"}
+{"log":"2022-07-04T15:39:36.963469Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).\n","stream":"stderr","time":"2022-07-04T15:39:36.970999666Z"}
+{"log":"2022-07-04T15:39:36.964298Z 0 [Warning] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-04T15:39:36.9710225Z"}
+{"log":"2022-07-04T15:39:36.964324Z 0 [Note] mysqld (mysqld 5.7.38) starting as process 1 ...\n","stream":"stderr","time":"2022-07-04T15:39:36.971026007Z"}
+{"log":"2022-07-04T15:39:36.966460Z 0 [Note] InnoDB: PUNCH HOLE support available\n","stream":"stderr","time":"2022-07-04T15:39:36.971028872Z"}
+{"log":"2022-07-04T15:39:36.966471Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins\n","stream":"stderr","time":"2022-07-04T15:39:36.971031657Z"}
+{"log":"2022-07-04T15:39:36.966474Z 0 [Note] InnoDB: Uses event mutexes\n","stream":"stderr","time":"2022-07-04T15:39:36.971034463Z"}
+{"log":"2022-07-04T15:39:36.966476Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier\n","stream":"stderr","time":"2022-07-04T15:39:36.971037148Z"}
+{"log":"2022-07-04T15:39:36.966478Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11\n","stream":"stderr","time":"2022-07-04T15:39:36.971039973Z"}
+{"log":"2022-07-04T15:39:36.966480Z 0 [Note] InnoDB: Using Linux native AIO\n","stream":"stderr","time":"2022-07-04T15:39:36.971042648Z"}
+{"log":"2022-07-04T15:39:36.967053Z 0 [Note] InnoDB: Number of pools: 1\n","stream":"stderr","time":"2022-07-04T15:39:36.971045424Z"}
+{"log":"2022-07-04T15:39:36.967116Z 0 [Note] InnoDB: Using CPU crc32 instructions\n","stream":"stderr","time":"2022-07-04T15:39:36.971048079Z"}
+{"log":"2022-07-04T15:39:36.968394Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M\n","stream":"stderr","time":"2022-07-04T15:39:36.971050794Z"}
+{"log":"2022-07-04T15:39:36.975795Z 0 [Note] InnoDB: Completed initialization of buffer pool\n","stream":"stderr","time":"2022-07-04T15:39:36.977963551Z"}
+{"log":"2022-07-04T15:39:36.977796Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().\n","stream":"stderr","time":"2022-07-04T15:39:36.977983068Z"}
+{"log":"2022-07-04T15:39:37.061371Z 0 [Note] InnoDB: Highest supported file format is Barracuda.\n","stream":"stderr","time":"2022-07-04T15:39:37.061623166Z"}
+{"log":"2022-07-04T15:39:37.234327Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables\n","stream":"stderr","time":"2022-07-04T15:39:37.235562636Z"}
+{"log":"2022-07-04T15:39:37.234473Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...\n","stream":"stderr","time":"2022-07-04T15:39:37.235583005Z"}
+{"log":"2022-07-04T15:39:43.549081Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.\n","stream":"stderr","time":"2022-07-04T15:39:43.550624777Z"}
+{"log":"2022-07-04T15:39:43.549477Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-04T15:39:43.55064762Z"}
+{"log":"2022-07-04T15:39:43.549482Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-04T15:39:43.550650847Z"}
+{"log":"2022-07-04T15:39:43.550208Z 0 [Note] InnoDB: Waiting for purge to start\n","stream":"stderr","time":"2022-07-04T15:39:43.550653472Z"}
+{"log":"2022-07-04T15:39:43.600540Z 0 [Note] InnoDB: 5.7.38 started; log sequence number 12661100\n","stream":"stderr","time":"2022-07-04T15:39:43.601662103Z"}
+{"log":"2022-07-04T15:39:43.600873Z 0 [Note] Plugin 'FEDERATED' is disabled.\n","stream":"stderr","time":"2022-07-04T15:39:43.601684726Z"}
+{"log":"2022-07-04T15:39:43.601083Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool\n","stream":"stderr","time":"2022-07-04T15:39:43.601687812Z"}
+{"log":"2022-07-04T15:39:43.873856Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.\n","stream":"stderr","time":"2022-07-04T15:39:43.874307754Z"}
+{"log":"2022-07-04T15:39:43.873875Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.\n","stream":"stderr","time":"2022-07-04T15:39:43.874330267Z"}
+{"log":"2022-07-04T15:39:43.873879Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-04T15:39:43.874333323Z"}
+{"log":"2022-07-04T15:39:43.873881Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-04T15:39:43.874336078Z"}
+{"log":"2022-07-04T15:39:43.923759Z 0 [Warning] CA certificate ca.pem is self signed.\n","stream":"stderr","time":"2022-07-04T15:39:43.924192049Z"}
+{"log":"2022-07-04T15:39:43.923807Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.\n","stream":"stderr","time":"2022-07-04T15:39:43.924212337Z"}
+{"log":"2022-07-04T15:39:43.955383Z 0 [Note] Server hostname (bind-address): '*'; port: 3306\n","stream":"stderr","time":"2022-07-04T15:39:43.956037996Z"}
+{"log":"2022-07-04T15:39:43.955699Z 0 [Note] IPv6 is available.\n","stream":"stderr","time":"2022-07-04T15:39:43.956057774Z"}
+{"log":"2022-07-04T15:39:43.955710Z 0 [Note]   - '::' resolves to '::';\n","stream":"stderr","time":"2022-07-04T15:39:43.956060719Z"}
+{"log":"2022-07-04T15:39:43.955727Z 0 [Note] Server socket created on IP: '::'.\n","stream":"stderr","time":"2022-07-04T15:39:43.956064096Z"}
+{"log":"2022-07-04T15:39:44.059276Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-04T15:39:44.059923485Z"}
+{"log":"2022-07-04T15:39:44.200811Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220704 15:39:44\n","stream":"stderr","time":"2022-07-04T15:39:44.201461005Z"}
+{"log":"2022-07-04T15:39:45.229381Z 0 [Note] Event Scheduler: Loaded 0 events\n","stream":"stderr","time":"2022-07-04T15:39:45.239842524Z"}
+{"log":"2022-07-04T15:39:45.229584Z 0 [Note] mysqld: ready for connections.\n","stream":"stderr","time":"2022-07-04T15:39:45.239873226Z"}
+{"log":"Version: '5.7.38'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)\n","stream":"stderr","time":"2022-07-04T15:39:45.239888748Z"}
+{"log":"2022-07-04T15:43:55.450959Z 0 [Note] Giving 0 client threads a chance to die gracefully\n","stream":"stderr","time":"2022-07-04T15:43:55.493776569Z"}
+{"log":"2022-07-04T15:43:55.451426Z 0 [Note] Shutting down slave threads\n","stream":"stderr","time":"2022-07-04T15:43:55.493806526Z"}
+{"log":"2022-07-04T15:43:55.451430Z 0 [Note] Forcefully disconnecting 0 remaining clients\n","stream":"stderr","time":"2022-07-04T15:43:55.493810032Z"}
+{"log":"2022-07-04T15:43:55.451434Z 0 [Note] Event Scheduler: Purging the queue. 0 events\n","stream":"stderr","time":"2022-07-04T15:43:55.493812858Z"}
+{"log":"2022-07-04T15:43:55.451477Z 0 [Note] Binlog end\n","stream":"stderr","time":"2022-07-04T15:43:55.493815543Z"}
+{"log":"2022-07-04T15:43:55.451867Z 0 [Note] Shutting down plugin 'ngram'\n","stream":"stderr","time":"2022-07-04T15:43:55.493818198Z"}
+{"log":"2022-07-04T15:43:55.451873Z 0 [Note] Shutting down plugin 'partition'\n","stream":"stderr","time":"2022-07-04T15:43:55.493821013Z"}
+{"log":"2022-07-04T15:43:55.451874Z 0 [Note] Shutting down plugin 'BLACKHOLE'\n","stream":"stderr","time":"2022-07-04T15:43:55.493823688Z"}
+{"log":"2022-07-04T15:43:55.451877Z 0 [Note] Shutting down plugin 'ARCHIVE'\n","stream":"stderr","time":"2022-07-04T15:43:55.493826334Z"}
+{"log":"2022-07-04T15:43:55.451879Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'\n","stream":"stderr","time":"2022-07-04T15:43:55.493828979Z"}
+{"log":"2022-07-04T15:43:55.451910Z 0 [Note] Shutting down plugin 'MRG_MYISAM'\n","stream":"stderr","time":"2022-07-04T15:43:55.493831654Z"}
+{"log":"2022-07-04T15:43:55.451912Z 0 [Note] Shutting down plugin 'MyISAM'\n","stream":"stderr","time":"2022-07-04T15:43:55.493834309Z"}
+{"log":"2022-07-04T15:43:55.451918Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'\n","stream":"stderr","time":"2022-07-04T15:43:55.493836924Z"}
+{"log":"2022-07-04T15:43:55.451921Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'\n","stream":"stderr","time":"2022-07-04T15:43:55.493839589Z"}
+{"log":"2022-07-04T15:43:55.451924Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'\n","stream":"stderr","time":"2022-07-04T15:43:55.493842324Z"}
+{"log":"2022-07-04T15:43:55.451926Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'\n","stream":"stderr","time":"2022-07-04T15:43:55.493844999Z"}
+{"log":"2022-07-04T15:43:55.451928Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'\n","stream":"stderr","time":"2022-07-04T15:43:55.493847664Z"}
+{"log":"2022-07-04T15:43:55.451930Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'\n","stream":"stderr","time":"2022-07-04T15:43:55.493850309Z"}
+{"log":"2022-07-04T15:43:55.451932Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'\n","stream":"stderr","time":"2022-07-04T15:43:55.493852954Z"}
+{"log":"2022-07-04T15:43:55.451934Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'\n","stream":"stderr","time":"2022-07-04T15:43:55.493855609Z"}
+{"log":"2022-07-04T15:43:55.451936Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'\n","stream":"stderr","time":"2022-07-04T15:43:55.493858234Z"}
+{"log":"2022-07-04T15:43:55.451938Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'\n","stream":"stderr","time":"2022-07-04T15:43:55.493860889Z"}
+{"log":"2022-07-04T15:43:55.451941Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'\n","stream":"stderr","time":"2022-07-04T15:43:55.493863615Z"}
+{"log":"2022-07-04T15:43:55.451943Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'\n","stream":"stderr","time":"2022-07-04T15:43:55.49386627Z"}
+{"log":"2022-07-04T15:43:55.451945Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'\n","stream":"stderr","time":"2022-07-04T15:43:55.493868975Z"}
+{"log":"2022-07-04T15:43:55.451947Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'\n","stream":"stderr","time":"2022-07-04T15:43:55.49387162Z"}
+{"log":"2022-07-04T15:43:55.451949Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'\n","stream":"stderr","time":"2022-07-04T15:43:55.493875197Z"}
+{"log":"2022-07-04T15:43:55.451951Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'\n","stream":"stderr","time":"2022-07-04T15:43:55.493888151Z"}
+{"log":"2022-07-04T15:43:55.451953Z 0 [Note] Shutting down plugin 'INNODB_METRICS'\n","stream":"stderr","time":"2022-07-04T15:43:55.493890857Z"}
+{"log":"2022-07-04T15:43:55.451955Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'\n","stream":"stderr","time":"2022-07-04T15:43:55.493893251Z"}
+{"log":"2022-07-04T15:43:55.451957Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'\n","stream":"stderr","time":"2022-07-04T15:43:55.493895716Z"}
+{"log":"2022-07-04T15:43:55.451959Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'\n","stream":"stderr","time":"2022-07-04T15:43:55.49389809Z"}
+{"log":"2022-07-04T15:43:55.451961Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'\n","stream":"stderr","time":"2022-07-04T15:43:55.493900485Z"}
+{"log":"2022-07-04T15:43:55.451963Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'\n","stream":"stderr","time":"2022-07-04T15:43:55.493902849Z"}
+{"log":"2022-07-04T15:43:55.451965Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'\n","stream":"stderr","time":"2022-07-04T15:43:55.493905214Z"}
+{"log":"2022-07-04T15:43:55.451967Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'\n","stream":"stderr","time":"2022-07-04T15:43:55.493907578Z"}
+{"log":"2022-07-04T15:43:55.451969Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'\n","stream":"stderr","time":"2022-07-04T15:43:55.493909943Z"}
+{"log":"2022-07-04T15:43:55.451971Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'\n","stream":"stderr","time":"2022-07-04T15:43:55.493912287Z"}
+{"log":"2022-07-04T15:43:55.451973Z 0 [Note] Shutting down plugin 'INNODB_CMP'\n","stream":"stderr","time":"2022-07-04T15:43:55.493914732Z"}
+{"log":"2022-07-04T15:43:55.451975Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'\n","stream":"stderr","time":"2022-07-04T15:43:55.493917067Z"}
+{"log":"2022-07-04T15:43:55.451977Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'\n","stream":"stderr","time":"2022-07-04T15:43:55.493919431Z"}
+{"log":"2022-07-04T15:43:55.451979Z 0 [Note] Shutting down plugin 'INNODB_TRX'\n","stream":"stderr","time":"2022-07-04T15:43:55.493921776Z"}
+{"log":"2022-07-04T15:43:55.451981Z 0 [Note] Shutting down plugin 'InnoDB'\n","stream":"stderr","time":"2022-07-04T15:43:55.49392411Z"}
+{"log":"2022-07-04T15:43:55.452022Z 0 [Note] InnoDB: FTS optimize thread exiting.\n","stream":"stderr","time":"2022-07-04T15:43:55.493926444Z"}
+{"log":"2022-07-04T15:43:55.452129Z 0 [Note] InnoDB: Starting shutdown...\n","stream":"stderr","time":"2022-07-04T15:43:55.493928809Z"}
+{"log":"2022-07-04T15:43:55.554573Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool\n","stream":"stderr","time":"2022-07-04T15:43:55.556027566Z"}
+{"log":"2022-07-04T15:43:55.554740Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220704 15:43:55\n","stream":"stderr","time":"2022-07-04T15:43:55.556044488Z"}
+{"log":"2022-07-04T15:43:56.778777Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12661128\n","stream":"stderr","time":"2022-07-04T15:43:56.780896745Z"}
+{"log":"2022-07-04T15:43:56.780845Z 0 [Note] InnoDB: Removed temporary tablespace data file: \"ibtmp1\"\n","stream":"stderr","time":"2022-07-04T15:43:56.780918407Z"}
+{"log":"2022-07-04T15:43:56.782383Z 0 [Note] Shutting down plugin 'MEMORY'\n","stream":"stderr","time":"2022-07-04T15:43:56.78439216Z"}
+{"log":"2022-07-04T15:43:56.782393Z 0 [Note] Shutting down plugin 'CSV'\n","stream":"stderr","time":"2022-07-04T15:43:56.784402169Z"}
+{"log":"2022-07-04T15:43:56.782399Z 0 [Note] Shutting down plugin 'sha256_password'\n","stream":"stderr","time":"2022-07-04T15:43:56.784405525Z"}
+{"log":"2022-07-04T15:43:56.782401Z 0 [Note] Shutting down plugin 'mysql_native_password'\n","stream":"stderr","time":"2022-07-04T15:43:56.784408321Z"}
+{"log":"2022-07-04T15:43:56.782511Z 0 [Note] Shutting down plugin 'binlog'\n","stream":"stderr","time":"2022-07-04T15:43:56.784411036Z"}
+{"log":"2022-07-04T15:43:56.782854Z 0 [Note] mysqld: Shutdown complete\n","stream":"stderr","time":"2022-07-04T15:43:56.784422147Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-04T15:43:56.784424612Z"}
+{"log":"2022-07-04 15:44:31+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-04T15:44:31.258066555Z"}
+{"log":"2022-07-04 15:44:32+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'\n","stream":"stdout","time":"2022-07-04T15:44:32.752465087Z"}
+{"log":"2022-07-04 15:44:32+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.38-1debian10 started.\n","stream":"stdout","time":"2022-07-04T15:44:32.851952007Z"}
+{"log":"mysqld: [Warning] World-writable config file '/etc/mysql/my.cnf' is ignored.\n","stream":"stderr","time":"2022-07-04T15:44:32.918312429Z"}
+{"log":"2022-07-04T15:44:33.087689Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).\n","stream":"stderr","time":"2022-07-04T15:44:33.099607325Z"}
+{"log":"2022-07-04T15:44:33.090534Z 0 [Warning] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-04T15:44:33.099628455Z"}
+{"log":"2022-07-04T15:44:33.090579Z 0 [Note] mysqld (mysqld 5.7.38) starting as process 1 ...\n","stream":"stderr","time":"2022-07-04T15:44:33.099631982Z"}
+{"log":"2022-07-04T15:44:33.093330Z 0 [Note] InnoDB: PUNCH HOLE support available\n","stream":"stderr","time":"2022-07-04T15:44:33.099634747Z"}
+{"log":"2022-07-04T15:44:33.093340Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins\n","stream":"stderr","time":"2022-07-04T15:44:33.099637572Z"}
+{"log":"2022-07-04T15:44:33.093342Z 0 [Note] InnoDB: Uses event mutexes\n","stream":"stderr","time":"2022-07-04T15:44:33.099640368Z"}
+{"log":"2022-07-04T15:44:33.093345Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier\n","stream":"stderr","time":"2022-07-04T15:44:33.099643003Z"}
+{"log":"2022-07-04T15:44:33.093347Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11\n","stream":"stderr","time":"2022-07-04T15:44:33.099645738Z"}
+{"log":"2022-07-04T15:44:33.093349Z 0 [Note] InnoDB: Using Linux native AIO\n","stream":"stderr","time":"2022-07-04T15:44:33.099648383Z"}
+{"log":"2022-07-04T15:44:33.093479Z 0 [Note] InnoDB: Number of pools: 1\n","stream":"stderr","time":"2022-07-04T15:44:33.099651018Z"}
+{"log":"2022-07-04T15:44:33.093534Z 0 [Note] InnoDB: Using CPU crc32 instructions\n","stream":"stderr","time":"2022-07-04T15:44:33.099653643Z"}
+{"log":"2022-07-04T15:44:33.095152Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M\n","stream":"stderr","time":"2022-07-04T15:44:33.099656298Z"}
+{"log":"2022-07-04T15:44:33.101629Z 0 [Note] InnoDB: Completed initialization of buffer pool\n","stream":"stderr","time":"2022-07-04T15:44:33.10349663Z"}
+{"log":"2022-07-04T15:44:33.103800Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().\n","stream":"stderr","time":"2022-07-04T15:44:33.103845265Z"}
+{"log":"2022-07-04T15:44:33.165077Z 0 [Note] InnoDB: Highest supported file format is Barracuda.\n","stream":"stderr","time":"2022-07-04T15:44:33.165293392Z"}
+{"log":"2022-07-04T15:44:33.428178Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables\n","stream":"stderr","time":"2022-07-04T15:44:33.42978458Z"}
+{"log":"2022-07-04T15:44:33.428294Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...\n","stream":"stderr","time":"2022-07-04T15:44:33.429809938Z"}
+{"log":"2022-07-04T15:44:34.021763Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.\n","stream":"stderr","time":"2022-07-04T15:44:34.023277129Z"}
+{"log":"2022-07-04T15:44:34.022227Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-04T15:44:34.023333116Z"}
+{"log":"2022-07-04T15:44:34.022234Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.\n","stream":"stderr","time":"2022-07-04T15:44:34.023353875Z"}
+{"log":"2022-07-04T15:44:34.023015Z 0 [Note] InnoDB: Waiting for purge to start\n","stream":"stderr","time":"2022-07-04T15:44:34.023357392Z"}
+{"log":"2022-07-04T15:44:34.073313Z 0 [Note] InnoDB: 5.7.38 started; log sequence number 12661128\n","stream":"stderr","time":"2022-07-04T15:44:34.073970011Z"}
+{"log":"2022-07-04T15:44:34.073638Z 0 [Note] Plugin 'FEDERATED' is disabled.\n","stream":"stderr","time":"2022-07-04T15:44:34.073992554Z"}
+{"log":"2022-07-04T15:44:34.073850Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool\n","stream":"stderr","time":"2022-07-04T15:44:34.07399546Z"}
+{"log":"2022-07-04T15:44:34.504495Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.\n","stream":"stderr","time":"2022-07-04T15:44:34.505090943Z"}
+{"log":"2022-07-04T15:44:34.504512Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.\n","stream":"stderr","time":"2022-07-04T15:44:34.505108987Z"}
+{"log":"2022-07-04T15:44:34.504516Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-04T15:44:34.505112013Z"}
+{"log":"2022-07-04T15:44:34.504518Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.\n","stream":"stderr","time":"2022-07-04T15:44:34.505114518Z"}
+{"log":"2022-07-04T15:44:40.562592Z 0 [Warning] CA certificate ca.pem is self signed.\n","stream":"stderr","time":"2022-07-04T15:44:40.562974577Z"}
+{"log":"2022-07-04T15:44:40.562634Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.\n","stream":"stderr","time":"2022-07-04T15:44:40.562995046Z"}
+{"log":"2022-07-04T15:44:40.593797Z 0 [Note] Server hostname (bind-address): '*'; port: 3306\n","stream":"stderr","time":"2022-07-04T15:44:40.594941499Z"}
+{"log":"2022-07-04T15:44:40.594173Z 0 [Note] IPv6 is available.\n","stream":"stderr","time":"2022-07-04T15:44:40.594961567Z"}
+{"log":"2022-07-04T15:44:40.594191Z 0 [Note]   - '::' resolves to '::';\n","stream":"stderr","time":"2022-07-04T15:44:40.594965885Z"}
+{"log":"2022-07-04T15:44:40.594211Z 0 [Note] Server socket created on IP: '::'.\n","stream":"stderr","time":"2022-07-04T15:44:40.594969612Z"}
+{"log":"2022-07-04T15:44:40.695193Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2022-07-04T15:44:40.69573614Z"}
+{"log":"2022-07-04T15:44:40.831549Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220704 15:44:40\n","stream":"stderr","time":"2022-07-04T15:44:40.831901672Z"}
+{"log":"2022-07-04T15:44:41.680420Z 0 [Note] Event Scheduler: Loaded 0 events\n","stream":"stderr","time":"2022-07-04T15:44:41.681679435Z"}
+{"log":"2022-07-04T15:44:41.680973Z 0 [Note] mysqld: ready for connections.\n","stream":"stderr","time":"2022-07-04T15:44:41.68171899Z"}
+{"log":"Version: '5.7.38'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)\n","stream":"stderr","time":"2022-07-04T15:44:41.681725542Z"}
