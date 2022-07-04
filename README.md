@@ -94,7 +94,9 @@ Para essa aplicação serão necessárias as seguintes tarefas:
 
 Deverá ser desenvolvido a aplicação em questão e entregue através do Github e coma documentação do READ.ME.  
 
- 
- 
+ Segue-se um link do comandos usados desse projeto: 
+ [Comandos-Linux e Docker.docx](https://github.com/RefesonCompassUol/LabDockerNodeJs/files/9041215/Comandos-Linux.e.Docker.docx)
+
+
 
 Deverá ser concluído até o dia 04/07/2022 3:15. 
