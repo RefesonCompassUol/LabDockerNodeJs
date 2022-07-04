@@ -1,0 +1,5 @@
+/usr/lib/x86_64-linux-gnu/gio/modules libglib2.0-0:amd64/noawait
+/usr/lib/gio/modules libglib2.0-0:amd64/noawait
+/usr/share/glib-2.0/schemas libglib2.0-0:amd64
+/usr/lib/mime/packages mailcap/noawait
+/usr/share/applications mailcap/noawait

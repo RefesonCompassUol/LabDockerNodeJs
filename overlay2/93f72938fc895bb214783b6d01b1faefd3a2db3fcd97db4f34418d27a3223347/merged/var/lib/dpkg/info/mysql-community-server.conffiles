@@ -1,0 +1,3 @@
+/etc/init.d/mysql
+/etc/mysql/mysql.cnf
+/etc/mysql/mysql.conf.d/mysqld.cnf

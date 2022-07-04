@@ -1,8 +1,0 @@
-{"log":"WordPress not found in /var/www/html - copying now...\n","stream":"stderr","time":"2022-07-02T22:47:43.399789233Z"}
-{"log":"Complete! WordPress has been successfully copied to /var/www/html\n","stream":"stderr","time":"2022-07-02T22:47:43.69618332Z"}
-{"log":"No 'wp-config.php' found in /var/www/html, but 'WORDPRESS_...' variables supplied; copying 'wp-config-docker.php' (WORDPRESS_DB_HOST WORDPRESS_DB_NAME WORDPRESS_DB_PASSWORD WORDPRESS_DB_USER)\n","stream":"stderr","time":"2022-07-02T22:47:43.696238305Z"}
-{"log":"AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message\n","stream":"stderr","time":"2022-07-02T22:47:43.803945471Z"}
-{"log":"AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message\n","stream":"stderr","time":"2022-07-02T22:47:43.815559229Z"}
-{"log":"[Sat Jul 02 22:47:43.828899 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.53 (Debian) PHP/7.4.30 configured -- resuming normal operations\n","stream":"stderr","time":"2022-07-02T22:47:43.829889329Z"}
-{"log":"[Sat Jul 02 22:47:43.828936 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'\n","stream":"stderr","time":"2022-07-02T22:47:43.829916451Z"}
-{"log":"172.18.0.1 - - [02/Jul/2022:22:51:10 +0000] \"GET / HTTP/1.1\" 500 2834 \"-\" \"curl/7.61.1\"\n","stream":"stdout","time":"2022-07-02T22:51:10.27392519Z"}

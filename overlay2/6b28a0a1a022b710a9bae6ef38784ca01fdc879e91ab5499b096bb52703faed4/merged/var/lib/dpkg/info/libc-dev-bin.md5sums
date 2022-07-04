@@ -1,0 +1,7 @@
+06f0f613df0530e03e00d1795e42788a  usr/bin/gencat
+f14d79d308e2ea0e6a17dfdddf80483d  usr/bin/rpcgen
+f7901a1637bd18ce9befb0b07f48440a  usr/share/doc/libc-dev-bin/changelog.Debian.gz
+48d68260ab7331ccff4ff77677d7607d  usr/share/doc/libc-dev-bin/changelog.gz
+d848be5c37cd71d76c5a7b9e7e28868a  usr/share/doc/libc-dev-bin/copyright
+19548a7cc153f6e3e6b04e968268b497  usr/share/man/man1/gencat.1.gz
+a1a34953150a51126c79e4b5970192be  usr/share/man/man1/rpcgen.1.gz

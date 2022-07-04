@@ -1,0 +1,6 @@
+{"log":"\r\n","stream":"stdout","time":"2022-07-03T23:14:44.88117713Z"}
+{"log":"\u003e volume-exemplo@1.0.0 start /app-labnodejs\r\n","stream":"stdout","time":"2022-07-03T23:14:44.881212497Z"}
+{"log":"\u003e node .\r\n","stream":"stdout","time":"2022-07-03T23:14:44.881216595Z"}
+{"log":"\r\n","stream":"stdout","time":"2022-07-03T23:14:44.88121904Z"}
+{"log":"Server is listening on port 3000\r\n","stream":"stdout","time":"2022-07-03T23:14:44.976268656Z"}
+{"log":"^C","stream":"stdout","time":"2022-07-03T23:15:07.563721385Z"}

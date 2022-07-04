@@ -1,0 +1,60 @@
+{"log":"npm ERR! code ENOENT\n","stream":"stderr","time":"2022-07-03T22:24:27.453939132Z"}
+{"log":"npm ERR! syscall open\n","stream":"stderr","time":"2022-07-03T22:24:27.453971804Z"}
+{"log":"npm ERR! path //package.json\n","stream":"stderr","time":"2022-07-03T22:24:27.453975291Z"}
+{"log":"npm ERR! errno -2\n","stream":"stderr","time":"2022-07-03T22:24:27.453977726Z"}
+{"log":"npm ERR! enoent ENOENT: no such file or directory, open '//package.json'\n","stream":"stderr","time":"2022-07-03T22:24:27.45398011Z"}
+{"log":"npm ERR! enoent This is related to npm not being able to find a file.\n","stream":"stderr","time":"2022-07-03T22:24:27.453982715Z"}
+{"log":"npm ERR! enoent \n","stream":"stderr","time":"2022-07-03T22:24:27.45398519Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-03T22:24:27.461399951Z"}
+{"log":"npm ERR! A complete log of this run can be found in:\n","stream":"stderr","time":"2022-07-03T22:24:27.46142042Z"}
+{"log":"npm ERR!     /root/.npm/_logs/2022-07-03T22_24_27_271Z-debug-0.log\n","stream":"stderr","time":"2022-07-03T22:24:27.461423416Z"}
+{"log":"npm ERR! code ENOENT\n","stream":"stderr","time":"2022-07-03T22:41:20.8404744Z"}
+{"log":"npm ERR! syscall open\n","stream":"stderr","time":"2022-07-03T22:41:20.840497353Z"}
+{"log":"npm ERR! path //package.json\n","stream":"stderr","time":"2022-07-03T22:41:20.84050058Z"}
+{"log":"npm ERR! errno -2\n","stream":"stderr","time":"2022-07-03T22:41:20.840503335Z"}
+{"log":"npm ERR! enoent ENOENT: no such file or directory, open '//package.json'\n","stream":"stderr","time":"2022-07-03T22:41:20.84972378Z"}
+{"log":"npm ERR! enoent This is related to npm not being able to find a file.\n","stream":"stderr","time":"2022-07-03T22:41:20.849744429Z"}
+{"log":"npm ERR! enoent \n","stream":"stderr","time":"2022-07-03T22:41:20.849747725Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-03T22:41:20.84975035Z"}
+{"log":"npm ERR! A complete log of this run can be found in:\n","stream":"stderr","time":"2022-07-03T22:41:20.849752955Z"}
+{"log":"npm ERR!     /root/.npm/_logs/2022-07-03T22_41_20_784Z-debug-0.log\n","stream":"stderr","time":"2022-07-03T22:41:20.849755681Z"}
+{"log":"npm ERR! code ENOENT\n","stream":"stderr","time":"2022-07-03T22:46:51.023380184Z"}
+{"log":"npm ERR! syscall open\n","stream":"stderr","time":"2022-07-03T22:46:51.023403088Z"}
+{"log":"npm ERR! path //package.json\n","stream":"stderr","time":"2022-07-03T22:46:51.023406384Z"}
+{"log":"npm ERR! errno -2\n","stream":"stderr","time":"2022-07-03T22:46:51.023409079Z"}
+{"log":"npm ERR! enoent ENOENT: no such file or directory, open '//package.json'\n","stream":"stderr","time":"2022-07-03T22:46:51.023411945Z"}
+{"log":"npm ERR! enoent This is related to npm not being able to find a file.\n","stream":"stderr","time":"2022-07-03T22:46:51.02341476Z"}
+{"log":"npm ERR! enoent \n","stream":"stderr","time":"2022-07-03T22:46:51.023417455Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-03T22:46:51.02342003Z"}
+{"log":"npm ERR! A complete log of this run can be found in:\n","stream":"stderr","time":"2022-07-03T22:46:51.023422725Z"}
+{"log":"npm ERR!     /root/.npm/_logs/2022-07-03T22_46_50_964Z-debug-0.log\n","stream":"stderr","time":"2022-07-03T22:46:51.023425441Z"}
+{"log":"npm ERR! code ENOENT\n","stream":"stderr","time":"2022-07-03T23:24:43.474921012Z"}
+{"log":"npm ERR! syscall open\n","stream":"stderr","time":"2022-07-03T23:24:43.486590697Z"}
+{"log":"npm ERR! path //package.json\n","stream":"stderr","time":"2022-07-03T23:24:43.486608293Z"}
+{"log":"npm ERR! errno -2\n","stream":"stderr","time":"2022-07-03T23:24:43.486611571Z"}
+{"log":"npm ERR! enoent ENOENT: no such file or directory, open '//package.json'\n","stream":"stderr","time":"2022-07-03T23:24:43.486614439Z"}
+{"log":"npm ERR! enoent This is related to npm not being able to find a file.\n","stream":"stderr","time":"2022-07-03T23:24:43.486617376Z"}
+{"log":"npm ERR! enoent \n","stream":"stderr","time":"2022-07-03T23:24:43.486620133Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-03T23:24:43.48662282Z"}
+{"log":"npm ERR! A complete log of this run can be found in:\n","stream":"stderr","time":"2022-07-03T23:24:43.486625708Z"}
+{"log":"npm ERR!     /root/.npm/_logs/2022-07-03T23_24_43_325Z-debug-0.log\n","stream":"stderr","time":"2022-07-03T23:24:43.486642662Z"}
+{"log":"npm ERR! code ENOENT\n","stream":"stderr","time":"2022-07-03T23:30:26.972001111Z"}
+{"log":"npm ERR! syscall open\n","stream":"stderr","time":"2022-07-03T23:30:26.972024616Z"}
+{"log":"npm ERR! path //package.json\n","stream":"stderr","time":"2022-07-03T23:30:26.972028193Z"}
+{"log":"npm ERR! errno -2\n","stream":"stderr","time":"2022-07-03T23:30:26.972031008Z"}
+{"log":"npm ERR! enoent ENOENT: no such file or directory, open '//package.json'\n","stream":"stderr","time":"2022-07-03T23:30:26.972033774Z"}
+{"log":"npm ERR! enoent This is related to npm not being able to find a file.\n","stream":"stderr","time":"2022-07-03T23:30:26.972036449Z"}
+{"log":"npm ERR! enoent \n","stream":"stderr","time":"2022-07-03T23:30:26.972039134Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-03T23:30:26.972041749Z"}
+{"log":"npm ERR! A complete log of this run can be found in:\n","stream":"stderr","time":"2022-07-03T23:30:26.972044965Z"}
+{"log":"npm ERR!     /root/.npm/_logs/2022-07-03T23_30_26_914Z-debug-0.log\n","stream":"stderr","time":"2022-07-03T23:30:26.972047891Z"}
+{"log":"npm ERR! code ENOENT\n","stream":"stderr","time":"2022-07-03T23:45:15.003360099Z"}
+{"log":"npm ERR! syscall open\n","stream":"stderr","time":"2022-07-03T23:45:15.011646027Z"}
+{"log":"npm ERR! path //package.json\n","stream":"stderr","time":"2022-07-03T23:45:15.011668389Z"}
+{"log":"npm ERR! errno -2\n","stream":"stderr","time":"2022-07-03T23:45:15.011671756Z"}
+{"log":"npm ERR! enoent ENOENT: no such file or directory, open '//package.json'\n","stream":"stderr","time":"2022-07-03T23:45:15.011674451Z"}
+{"log":"npm ERR! enoent This is related to npm not being able to find a file.\n","stream":"stderr","time":"2022-07-03T23:45:15.011677146Z"}
+{"log":"npm ERR! enoent \n","stream":"stderr","time":"2022-07-03T23:45:15.011679941Z"}
+{"log":"\n","stream":"stderr","time":"2022-07-03T23:45:15.011682576Z"}
+{"log":"npm ERR! A complete log of this run can be found in:\n","stream":"stderr","time":"2022-07-03T23:45:15.011685151Z"}
+{"log":"npm ERR!     /root/.npm/_logs/2022-07-03T23_45_14_949Z-debug-0.log\n","stream":"stderr","time":"2022-07-03T23:45:15.011687836Z"}

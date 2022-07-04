@@ -1,0 +1,207 @@
+#! /bin/bash
+# preinst script for apache2
+#
+# see: dh_installdeb(1)
+
+set -e
+
+# summary of how this script can be called:
+#        * <new-preinst> `install'
+#        * <new-preinst> `install' <old-version>
+#        * <new-preinst> `upgrade' <old-version>
+#        * <old-preinst> `abort-upgrade' <new-version>
+# for details, see http://www.debian.org/doc/debian-policy/ or
+# the debian-policy package
+
+FIXUP_TEMPFILE=
+
+
+# During the migration of conffiles from apache2.2-common to apache2,
+# some things may have gone wrong.
+# * Some conffiles may have been left with obsolete content. These
+#   have an md5sum in this list.
+# * Some other conffiles may have been removed but dpkg still thinks that
+#   they belong to apache2.2-common. A few of these have been re-introduced,
+#   but dpkg being confused about their state causes dpkg to think the
+#   admin has removed them and to not create the new content.
+#   These have a 'restore' instead of a md5 in the list.
+list_fixup_conffiles () {
+	cat <<- EOF
+		/etc/bash_completion.d/apache2					6a5f85e62655f6b5c8fa0f95c7c35c9c	removed
+		/etc/apache2/sites-available/000-default.conf			2cc450cf300a880abbc3767fc002477d
+		/etc/apache2/sites-available/default-ssl.conf			196d150beeaeaf845ece50d7e84e12de
+		/etc/apache2/conf-available/charset.conf			e6fbb8adf631932851d6cc522c1e48d7
+		/etc/apache2/conf-available/localized-error-pages.conf		844ba27ddb794fc6967bfb56b950e6a8
+		/etc/apache2/conf-available/other-vhosts-access-log.conf	2cad303fc4221d6b0068a8b37597b9fb
+		/etc/apache2/conf-available/security.conf			0f644d9d04ad556f44f1e65674bc07dc
+		/etc/apache2/mods-available/cern_meta.load			restore
+		/etc/apache2/mods-available/ident.load				restore
+		/etc/apache2/mods-available/imagemap.load			restore
+		EOF
+}
+
+create_fixup_conffiles_tgz () {
+	FIXUP_TEMPFILE=$(mktemp)
+	base64 -d > $FIXUP_TEMPFILE << EOF
+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
+
+EOF
+}
+
+extract_fixup_conffile () {
+	local FILE=$1
+	local BASENAME=${FILE##*/}
+	tar -xz -O -f $FIXUP_TEMPFILE $BASENAME > $FILE
+}
+
+replace_broken_conffiles () {
+	local FILE
+	local MD5
+	create_fixup_conffiles_tgz
+	while read FILE MD5 REMOVED ; do
+		if [ -f "$FILE" ] && md5sum "$FILE" | grep -q "^$MD5 " ; then
+			echo "Replacing broken conffile ${FILE}."
+			mv "$FILE" "${FILE}.dpkg-remove-fixup"
+			if [ -z "$REMOVED" ] ; then
+				extract_fixup_conffile "$FILE"
+			fi
+		elif [ ! -e "$FILE" ] && [ "$MD5" = "restore" ] ; then
+			echo "Restoring lost conffile ${FILE}."
+			extract_fixup_conffile "$FILE"
+		fi
+	done
+	rm -f "$FIXUP_TEMPFILE"
+}
+
+revert_broken_conffiles () {
+	local FILE
+	local MD5
+	local REMOVE
+	while read FILE MD5 REMOVED; do
+		if [ -f "$FILE.dpkg-remove-fixup" ]; then
+			echo "Moving broken conffile $FILE back."
+			mv "${FILE}.dpkg-remove-fixup" "$FILE"
+		fi
+	done
+}
+
+case "$1" in
+    upgrade|install)
+
+	if dpkg --compare-versions "$2" lt-nl "2.4.23-3~" ; then
+		list_fixup_conffiles | replace_broken_conffiles
+	fi
+
+    ;;
+
+    abort-upgrade)
+		list_fixup_conffiles | revert_broken_conffiles
+    ;;
+
+    *)
+	echo "preinst called with unknown argument \`$1'" >&2
+	exit 1
+    ;;
+esac
+
+# dh_installdeb will replace this with shell code automatically
+# generated by other debhelper scripts.
+
+
+
+exit 0
