@@ -22,8 +22,10 @@ services:  ## Define um serviço
     ports:
       - "8000:80"  # redirecionamento de porta quando chegar alguma requisição na porta 3000 chama o container na porta 80
     restart: always
+    links:
+      -  db
     environment:
-      WORDPRESS_DB_HOST: db:3606     #(ipbanco) host do  banco
+      WORDPRESS_DB_HOST: 172.18.0.2     #(ipbanco) host do  banco
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
