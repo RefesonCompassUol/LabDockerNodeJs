@@ -96,6 +96,7 @@ Deverá ser desenvolvido a aplicação em questão e entregue através do Github
 
  Segue-se um link do comandos usados desse projeto: 
  
-[Comandos-Linux e Docker.docx](https://github.com/RefesonCompassUol/LabDockerNodeJs/files/9041296/Comandos-Linux.e.Docker.docx)
+[Comandos-Linux e Docker.docx](https://github.com/RefesonCompassUol/LabDockerNodeJs/files/9049532/Comandos-Linux.e.Docker.docx)
+
 
 Deverá ser concluído até o dia 04/07/2022 3:15. 
