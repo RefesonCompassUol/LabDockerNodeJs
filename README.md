@@ -1,7 +1,6 @@
-#Programa de bolsas DevSecOps CompassUol- Grupo 6- Trilha Docker e atividade Linux. 
+## Entrega final da Sprint: Grupo 6- Trilha Docker e atividade Linux.
 
 #Componentes do grupo: Flavio Henrique Almeida Júnior, Lucas Freiberger de Souza, Maria Eduarda Araújo de Oliveira e Refeson Dos Santos Pinho. 
-
  
 
 ##Projeto 
