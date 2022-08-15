@@ -29,38 +29,34 @@ Ainda, utilizaremos as imagens NODE como back-end, mysql como banco de dados e o
  
  
 
-### Tarefas 
+### 🎯 Metas a serem entregues:
+📝 Instruções:
 
-Para essa aplicação serão necessárias as seguintes tarefas: 
+- 1 - Instalar uma imagem ORACLE LINUX na sua última versão; 
 
- 
+- 2 - Ajustar a rede da máquina em IP de classe A com a máscara /24; 
 
-- [T-01] Instalar uma imagem ORACLE LINUX na sua última versão; 
+- 3 - Deixar a rede em modo NAT; 
 
-- [T-02] Ajustar a rede da máquina em IP de classe A com a máscara /24; 
+- 4 - Ajusta LVMs para as partições /home, /var e /tmp; 
 
-- [T-03] Deixar a rede em modo NAT; 
+- 5 - Configura o HOSTNAME; 
 
-- [T-04] Ajusta LVMs para as partições /home, /var e /tmp; 
+- 6 - Ajustar DNS com o nome nodejslabdocker; 
 
-- [T-05] Configura o HOSTNAME; 
+- 7 - Configura a rede do servido com IP fixo; 
 
-- [T-06] Ajustar DNS com o nome nodejslabdocker; 
+- 8 - Configura o SSH; 
 
-- [T-07] Configura a rede do servido com IP fixo; 
+- 9 - Bloquear o acesso SSH para o root; 
 
-- [T-08] Configura o SSH; 
+- 10 - Criar um filesystem /var/lib/docker com 10GB em ext4; 
 
-- [T-09] Bloquear o acesso SSH para o root; 
+- 11 - Criar um projetor versionado; 
 
-- [T-10] Criar um filesystem /var/lib/docker com 10GB em ext4; 
+- 12 - Subir um docker; 
 
-- [T-11] Criar um projetor versionado; 
-
-- [T-12] Subir um docker; 
-
-- [T-13] instalar uma imagem da aplicação nodejs e suba um wordpress neste nodejs. Via docker; 
-
+- 13 - instalar uma imagem da aplicação nodejs e suba um wordpress neste nodejs. Via docker; 
  
 
 ### Restrições  
